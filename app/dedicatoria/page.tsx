@@ -31,8 +31,6 @@ export default function DedicatoriaPage() {
 
 
 
-
-
       <div className="mt-8">
         <Link 
           href="/" 

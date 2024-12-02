@@ -9,7 +9,7 @@ export type ParasiteCategory = {
 
 export type Parasite = {
   name: string;
-  type: 'Protozoo' | 'Helminto' | 'diagosticos';
+  type: 'Protozoo' | 'Helminto';
   subtype: string;
   categories: {
     [key: string]: ParasiteCategory;
@@ -27,56 +27,10 @@ export type ParasiteType = {
 export const parasites: {
   protozoos: ParasiteType;
   helmintos: ParasiteType;
-  diagnostico: ParasiteType;
+
 } = {
 
 
-  diagnostico: {
-    microscopio:{
-      'entamoeba-histolytica': {
-        name: 'Entamoeba histolytica',
-        type: 'Protozoo',
-        subtype: 'Ameba',
-        categories: {
-          trofozoitos: {
-            title: 'Trofozoítos',
-            description: `Tiene un tamaño de 20 a 30 micras, es muy móvil, 
-                          presenta una gran diferencia entre el endoplasma que es granuloso 
-                          y el ectoplasma que es transparente, hialino. La emisión de 
-                          pseudópodos en forma de dedos se produce por lo general en una 
-                          sola dirección, y en forma rápida "explosiva".
-                          
-                          Lo mas importante para el reconocimiento de la Entamoeba histolytica
-                          es la visualizaciòn del nucleo, este tiene un cariosoma central, pequeño,
-                          y la cromatina perifèrica alrededor de la membrana nuclear uniformemente distribuida. 
-                          Los trofozoitos se encuentran en las heces diarreicas, son el ùnico estadio
-                          de la ameba que se encuentra en el interior del absceso hepatico amebiano.
-                          
-                          Los trofozoitos se abren paso entre las cèlulas de la mucosa mediante una colagenasa
-                          que destruye los puentes intercelulares. Los colonocitos son inducidos a presentar autolisis,
-                          la matriz extracelular se degrada y las amibas pasan de la mucosa a la submucosa, esto induce
-                          la liberaciòn de gran cantidad de sustancias deletereas para la submucosa del colon permitiendo
-                          el creciminto lateral de la lesiòn dando origen a las ulceras en "botòn de camisa"
-                            `,
-            images: [
-              {
-                url: '/images/E_histolytica/E. histolytica trofozoito 02.jpg',
-
-                
-                description: 'Trofozoíto de Entamoeba histolytica con un glóbulo rojo fagocitado, característica distintiva de esta especie.'
-              },
-             
-
-            ]
-
-
-          },
-
-        }
-      },
-      
-    }
-  },
 
   protozoos: {
     amebas: {

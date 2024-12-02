@@ -41,6 +41,34 @@ export default function DeclaracionPage() {
 
 
           </li>
+
+          <li className="space-y-1">
+            <div className="flex items-center">
+              <span className="text-2xl font-bold mr-2">•</span>
+              <span className="text-xl font-semibold">JADER ALEJANDRO MUÑOZ GALINDEZ</span>
+            </div>
+            <p className="text-gray-600 ml-8"> Ingeniero Fisico</p>
+            <p className="text-gray-600 ml-8"> Joven investigador</p>
+            <p className="text-gray-600 ml-8"> Universidad del Cauca</p>
+          </li>
+
+          <li className="space-y-1">
+            <div className="flex items-center">
+              <span className="text-2xl font-bold mr-2">•</span>
+              <span className="text-xl font-semibold">RUBIEL VARGAS CAÑAS</span>
+            </div>
+            <p className="text-gray-600 ml-8"> Ingeniero de Sistemas</p>
+            <p className="text-gray-600 ml-8"> Especialialista En Informatica Industrial</p>
+            <p className="text-gray-600 ml-8"> Magister En Ingenieria Enfasis En Electronica</p>
+            <p className="text-gray-600 ml-8"> PhD in Biomedical Engineering</p>
+            <p className="text-gray-600 ml-8"> Profesor, Departamento de Fisica</p>
+            <p className="text-gray-600 ml-8"> Facultad ciencias naturales,exactas y de la educación; Universidad del Cauca</p>
+
+
+          </li>
+
+
+          
      
         </ul>
       </section>
