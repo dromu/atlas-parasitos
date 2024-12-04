@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { ImageModal } from '../../components/ImageModal'
 
 export default function ArtefactosPage() {
   return (
@@ -21,22 +22,22 @@ export default function ArtefactosPage() {
       </p>
 
       <div className="flex justify-center space-x-4 my-6">
-      <img 
-        src="/images/artefactos/pelo vegetal.jpg" 
-        alt="pelo vegetal" 
-        className="w-1/3 rounded-lg shadow-lg"
-      />
-      <img 
-        src="/images/artefactos/pelo vegetal 02.jpg" 
-        alt="pelo vegetal" 
-        className="w-1/3 rounded-lg shadow-lg"
-      />
+      <ImageModal 
+          imageUrl="/images/artefactos/pelo vegetal.jpg" 
+          alt="pelo vegetal"
+          description="Imagen microscópica de un pelo vegetal."
+        />
+        <ImageModal 
+          imageUrl="/images/artefactos/pelo vegetal 02.jpg" 
+          alt="pelo vegetal"
+          description="Imagen microscópica de un pelo vegetal."
+        />
+        <ImageModal 
+          imageUrl="/images/artefactos/pelo vegetal 03.jpg" 
+          alt="pelo vegetal"
+          description="Imagen microscópica de un pelo vegetal."
+          />
 
-    <img
-        src="/images/artefactos/pelo vegetal 03.jpg" 
-        alt="pelo vegetal" 
-        className="w-1/3 rounded-lg shadow-lg"
-      />
     </div>
 
 
@@ -45,22 +46,22 @@ export default function ArtefactosPage() {
       </p>
 
       <div className="flex justify-center space-x-4 my-6">
-      <img 
-        src="/images/artefactos/artefacto.jpg" 
-        alt="artefacto.jpg" 
-        className="w-1/3 rounded-lg shadow-lg"
+      <ImageModal 
+        imageUrl="/images/artefactos/artefacto.jpg" 
+        alt="artefacto"
+        description="Imagen microscópica de un artefacto."
       />
-      <img 
-        src="/images/artefactos/artefacto 02.jpg" 
-        alt="artefacto" 
-        className="w-1/3 rounded-lg shadow-lg"
+      <ImageModal 
+        imageUrl="/images/artefactos/artefacto 02.jpg" 
+        alt="artefacto"
+        description="Imagen microscópica de un artefacto."
+      />
+      <ImageModal 
+        imageUrl="/images/artefactos/artefacto 03.jpg" 
+        alt="artefacto"
+        description="Imagen microscópica de un artefacto."
       />
 
-    <img
-        src="/images/artefactos/artefacto 03.jpg" 
-        alt="artefacto " 
-        className="w-1/3 rounded-lg shadow-lg"
-      />
     </div>
 
     <p className="text-lg text-justify mb-4">
@@ -68,16 +69,17 @@ export default function ArtefactosPage() {
       </p>
 
       <div className="flex justify-center space-x-4 my-6">
-      <img 
-        src="/images/artefactos/cristal.jpg" 
-        alt="artefacto.jpg" 
-        className="w-1/3 rounded-lg shadow-lg"
+      <ImageModal 
+        imageUrl="/images/artefactos/cristal.jpg" 
+        alt="cristal"
+        description="Imagen microscópica de un cristal."
       />
-      <img 
-        src="/images/artefactos/artefacto coca-cola.jpg" 
-        alt="artefacto" 
-        className="w-1/3 rounded-lg shadow-lg"
+      <ImageModal 
+        imageUrl="/images/artefactos/artefacto coca-cola.jpg" 
+        alt="artefacto coca-cola"
+        description="Imagen microscópica de un artefacto relacionado con Coca-Cola."
       />
+
 
     </div>
 
@@ -90,16 +92,16 @@ export default function ArtefactosPage() {
       </p>
 
       <div className="flex justify-center space-x-4 my-6">
-      <img 
-        src="/images/artefactos/blastoconidias.jpg" 
-        alt="blastoconidias." 
-        className="w-1/3 rounded-lg shadow-lg"
-      />
-      <img 
-        src="/images/artefactos/macroconidia.jpg" 
-        alt="macroconidia." 
-        className="w-1/3 rounded-lg shadow-lg"
-      />
+      <ImageModal 
+      imageUrl="/images/artefactos/blastoconidias.jpg" 
+      alt="blastoconidias"
+      description="Imagen microscópica de blastoconidias."
+    />
+    <ImageModal 
+      imageUrl="/images/artefactos/macroconidia.jpg" 
+      alt="macroconidia"
+      description="Imagen microscópica de macroconidias."
+    />
 
     </div>
       

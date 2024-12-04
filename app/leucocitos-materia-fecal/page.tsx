@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { ImageModal } from '../../components/ImageModal'
 
 export default function LeucocitosMateriafecalPage() {
   return (
@@ -17,46 +18,56 @@ export default function LeucocitosMateriafecalPage() {
       <h2 className="text-xl font-semibold mb-2"> Eósinofilos</h2>
 
       <div className="flex justify-center space-x-4 my-6">
-      <img 
-        src="/images/leucocitos/eosinofilo 02.jpg" 
-        alt="eosinofilo 02.jpg" 
-        className="w-1/3 rounded-lg shadow-lg"
+
+      <ImageModal 
+      imageUrl="/images/leucocitos/eosinofilo 02.jpg" 
+      alt="eosinofilo 02.jpg" 
+      description=""
       />
-      <img 
-        src="/images/leucocitos/eosinofilo.jpg" 
-        alt="eosinofilo" 
-        className="w-1/3 rounded-lg shadow-lg"
+
+      <ImageModal 
+      imageUrl="/images/leucocitos/eosinofilo.jpg" 
+      alt="eosinofilo" 
+      description=""
       />
+      
     </div>
 
     <h2 className="text-xl font-semibold mb-2">  Neutrófilos</h2>
 
       <div className="flex justify-center space-x-4 my-6">
-      <img 
-        src="/images/leucocitos/neutrofilo.jpg" 
-        alt="eosinofilo 02.jpg" 
-        className="w-1/3 rounded-lg shadow-lg"
+
+      <ImageModal 
+      imageUrl="/images/leucocitos/neutrofilo.jpg" 
+      alt="neutrofilo"
+      description=""
       />
-      <img 
-        src="/images/leucocitos/neutrofilo 02.jpg" 
-        alt="neutrofilo 02" 
-        className="w-1/3 rounded-lg shadow-lg"
+
+      <ImageModal 
+      imageUrl="/images/leucocitos/neutrofilo 02.jpg" 
+      alt="eosinofilo" 
+      description=""
       />
+
+
     </div>
 
     <h2 className="text-xl font-semibold mb-2">  Linfocitos</h2>
 
       <div className="flex justify-center space-x-4 my-6">
-      <img 
-        src="/images/leucocitos/linfocito.jpg" 
-        alt="linfocito.jpg" 
-        className="w-1/3 rounded-lg shadow-lg"
+
+      <ImageModal 
+      imageUrl="/images/leucocitos/linfocito.jpg" 
+      alt="linfocito"
+      description=""
       />
-      <img 
-        src="/images/leucocitos/linfocito 02.jpg" 
-        alt="linfocito 02.jpg" 
-        className="w-1/3 rounded-lg shadow-lg"
+
+      <ImageModal 
+      imageUrl="/images/leucocitos/linfocito 02.jpg" 
+      alt="linfocito" 
+      description=""
       />
+
     </div>
 
 
