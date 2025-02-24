@@ -7,94 +7,102 @@ export default function BibliografiaPage() {
       <ul className="list-disc list-inside space-y-4">
         <li>
           <p className="inline">
-            Botero D y Restrepo M. <i>Parasitosis humanas.</i> 1992 2da Edición. Corporación Para Investigaciones Biológicas C.I.B, Medellín, Colombia.
+          Adl, S. M., et al. (2012). The revised classification of eukaryotes. The Journal of eukaryotic microbiology, 59(5), 429–493. https://doi.org/10.1111/j.1550-7408.2012.00644.x
           </p>
         </li>
         <li>
           <p className="inline">
-            Universidad Nacional Autónoma de México. <i>Manuales departamentales, Facultad de Medicina, Microbiología y Parasitología, Fascículo IV Parasitología.</i> 1996. Comité Asesor de Publicaciones de la Facultad de Medicina de la Universidad Nacional Autónoma de México, DF México.
+          https://www.who.int/news-room/questions-and-answers/item/neglected-tropical-diseases. Neglected tropical diseases
           </p>
         </li>
         <li>
           <p className="inline">
-            GoldSmith R y Heyneman. <i>Parasitología y Medicina Tropical.</i> 1995. Editorial El Manual Moderno S.A. de CV, México DF, Santa Fe de Bogotá.
+          Hotez PJ, et al. (2020) What constitutes a neglected tropical disease? PLoS Negl Trop Dis 14(1): e0008001. https://doi.org/10.1371/journal.pntd.0008001 .
           </p>
         </li>
         <li>
           <p className="inline">
-            Clark CG. <i>Entamoeba dispar and organism reborn.</i> Trans. R. Soc. Trop. Med Hyg. 1998, 92: 361–364.
+          Rodrigues ML, Nosanchuk JD (2020). Fungal diseases as neglected pathogens: A wakeup call to public health officials. PLoS Negl Trop Dis 14(2): e0007964. https://doi.org/10.1371/journal.pntd.0007964
           </p>
         </li>
         <li>
           <p className="inline">
-            Ridley DS, Hawgood BC. <i>The value of formol – ether concentration of fecal cyst and ova.</i> J. Clin. Pathol. 1956: 9: 74–76.
+          Hay R, et al. (2019). The Diagnosis of Fungal Neglected Tropical Diseases (Fungal NTDs) and the Role of Investigation and Laboratory Tests: An Expert Consensus Report. Trop Med Infect Dis. Sep 24;4(4):122. doi: 10.3390/tropicalmed4040122
+
           </p>
         </li>
         <li>
           <p className="inline">
-            Perry JL, Mathews JS, Miller GR. <i>Parasite detection efficiencies of five stool concentration systems.</i> J. Clin. Microbiol. 1990, 28 (6): 1094–1097.
+          Denning D. W. (2024). Global incidence and mortality of severe fungal disease. The Lancet. Infectious diseases, 24(7), e428–e438. https://doi.org/10.1016/S1473-3099(23)00692-8
           </p>
         </li>
         <li>
           <p className="inline">
-            Agualimpia C, Mejia WA, Paredes MR. <i>Investigación Nacional de Morbilidad de Parasitismo Intestinal.</i> 1969, Bogotá, Colombia.
+          Thompson, G. R., et al. (2021). Global guideline for the diagnosis and management of the endemic mycoses: an initiative of the European Confederation of Medical Mycology in cooperation with the International Society for Human and Animal Mycology. The Lancet. Infectious diseases, 21(12), e364–e374. https://doi.org/10.1016/S1473-3099(21)00191-2
           </p>
         </li>
         <li>
           <p className="inline">
-            Corredor A, Arciniegas E, Hernández CA. <i>Parasitismo Intestinal.</i> 2000.
+          Ashraf, N., et al. (2020). Re-drawing the Maps for Endemic Mycoses. Mycopathologia, 185(5), 843–865. https://doi.org/10.1007/s11046-020-00431-2
           </p>
         </li>
         <li>
           <p className="inline">
-            Gonzalez–Ruiz A. <i>The Use of the Ocular Micrometer in Diagnostic Parasitology.</i> Parasitology Today 1995; 11: 83–85.
+          Caceres, D. H., et al. (2022). Current situation of endemic mycosis in the Americas and the Caribbean: Proceedings of the first international meeting on endemic mycoses of the Americas (IMEMA). Mycoses, 65(12), 1179–1187. https://doi.org/10.1111/myc.13510
           </p>
         </li>
         <li>
           <p className="inline">
-            Guhl F, Molina S, Delgado P. <i>Revisión del Estado Actual del Diagnóstico de Entamoeba histolytica en Santa Fe de Bogotá.</i> Tribuna Médica 1996, 93: 131–138.
+          Morán, P., et al. (2023). Amoebiasis: Advances in Diagnosis, Treatment, Immunology Features and the Interaction with the Intestinal Ecosystem. International journal of molecular sciences, 24(14), 11755. https://doi.org/10.3390/ijms241411755
           </p>
         </li>
         <li>
           <p className="inline">
-            Alvarez CR, Valencia RS, Vazquez TO. <i>Manual de Procedimientos de Laboratorio Para el Diagnóstico de las Enfermedades Parasitarias.</i> Instituto Nacional de Pediatría, Servicio de Parasitología, 1997 México DF, México.
+          Adam R. D. (2021). Giardia duodenalis: Biology and Pathogenesis. Clinical microbiology reviews, 34(4), e0002419. https://doi.org/10.1128/CMR.00024-19
           </p>
         </li>
         <li>
           <p className="inline">
-            Díaz T. <i>Parasitología, Manual de Laboratorio.</i> 1995, Barranquilla, Colombia.
+          Votýpka, J., et al. (2016). Apicomplexa. Handbook of the Protists, 1–58. doi:10.1007/978-3-319-32669-6_20-1 10.1007/978-3-319-32669-6_20-1
           </p>
         </li>
         <li>
           <p className="inline">
-            Marinkelle CJ. <i>Guías de Parasitología.</i> 1996, Universidad de los Andes, Santa Fe de Bogotá, Colombia.
+          N. Contreras-Puentes, et al. Intestinal coccidian: an overview epidemiologic worldwide and Colombia. Infectio 2020; 24(2):112-125
           </p>
         </li>
         <li>
           <p className="inline">
-            Carvajal H, Caro FF, Bonelo A. <i>El Diagnóstico Directo en Parasitología.</i> 1995, Primera Edición, Editorial Universidad del Valle, Cali, Colombia.
+          Frey, C. F., &amp; Müller, N. (2012). Tritrichomonas – Systematics of an enigmatic genus. Molecular and Cellular Probes, 26(3), 132–136. doi:10.1016/j.mcp.2012.02.002
           </p>
         </li>
         <li>
           <p className="inline">
-            Florez SAC, Colorado SCL. <i>Manual de Apoyo, Seminario Taller de Parasitismo Intestinal.</i> Instituto Nacional de Salud, Lab. Parasitología. 1998, Santa Fe de Bogotá, Colombia.
+          Jourdan, P. M., et al. (2018). Soil-transmitted helminth infections. Lancet (London,England), 391(10117), 252–265. https://doi.org/10.1016/S0140-6736(17)31930-X
           </p>
         </li>
         <li>
           <p className="inline">
-            Todd, Stanford, David John. <i>Diagnóstico y Tratamientos Clínicos por el Laboratorio.</i> 1984, Séptima Edición, Editorial Salvat.
+          Else, K. J., Keiser, J., Holland, C. V., Grencis, R. K., Sattelle, D. B., Fujiwara, R. T., Bueno, L. L., Asaolu, S. O., Sowemimo, O. A., &amp; Cooper, P. J. (2020). Whipworm and roundworm infections. Nature reviews. Disease primers, 6(1), 44. https://doi.org/10.1038/s41572-020-0171-3
           </p>
         </li>
         <li>
           <p className="inline">
-            Vásquez ALR, González CFE, Burbano MD, et al. <i>Determination of Infection by Giardia lamblia in 2–5 children from the community house of Instituto Colombiano de Bienestar Familiar.</i> XV Congress for Tropical Medicine and Malaria 2000.
+          Webb, C., &amp; Cabada, M. M. (2017). Intestinal cestodes. Current opinion in infectious diseases, 30(5), 504–510. https://doi.org/10.1097/QCO.0000000000000400
           </p>
         </li>
         <li>
           <p className="inline">
-            Vásquez ALR, González CFE, Daza C, et al. <i>Prevalence of Intestinal Parasites in School Children of villages of Piendamó country.</i> XV Congress for Tropical Medicine and Malaria 2000.
+          Garcia, H. H., et al. (2020). Taenia solium Cysticercosis and Its Impact in Neurological Disease. Clinical microbiology reviews, 33(3), e00085-19. https://doi.org/10.1128/CMR.00085-19
           </p>
         </li>
+
+        <li>
+          <p className="inline">
+          Del Brutto O. H. (2022). Human Neurocysticercosis: An Overview. Pathogens (Basel,Switzerland), 11(10), 1212. https://doi.org/10.3390/pathogens11101212
+          </p>
+        </li>
+
       </ul>
       <div className="mt-8">
         <Link 

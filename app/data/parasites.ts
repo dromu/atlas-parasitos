@@ -33,6 +33,65 @@ export const parasites: {
 
 
   protozoos: {
+    
+
+    Estramenopilos:{
+      'Blastocystis': {
+        name: 'Blastocystis sp',
+        type: 'Protozoo',
+        subtype: 'Estramenopilos',
+        categories: {
+          
+          quistes: {
+            title: '',
+            description: `La taxonomia de B. hominis es muy discutida. En el momento es considerado un protozooario pero
+            se esta estimando la posibilidad de clasificarlo en un nuevo orden. Este es ocasionalmente encontrado en el 
+            tracto intestinal humano siendo su patogenicidad tambien controversial. El conocimiento sobre su ciclo de vida 
+            y forma de transmisión esta incompleta, pero se asume que la infección es adquirida vía fecal-oral.
+            Su diagnostico esta basado en encontrar formas quisticas en heces frescas, aunque en ocaciones tambien se 
+            pueden encontrar trofozoitos de diversos tamaños`,
+            images: [
+              {
+                url: '/images/B_hominis/B. hominis grande ZN.jpg',        
+                description: 'B. hominis grande ZN'
+              },
+
+              {
+                url: '/images/B_hominis/B. hominis quiste 02.jpg',        
+                description: 'B. hominis quiste'
+              },
+
+              {
+                url: '/images/B_hominis/blastocystisGranular.png',        
+                description: 'Quiste de blastocystis granular'
+              },
+
+              {
+                url: '/images/B_hominis/blastocystisVacuolar.png',        
+                description: 'Quiste de blastocystis vacuolar'
+              },
+
+              {
+                url: '/images/B_hominis/blastocystisLugol1000X.jpg',        
+                description: 'Blastocystis en montaje fresco con lugol 1000X'
+              },
+
+              {
+                url: '/images/B_hominis/blastocystisLugol1000X2.jpg',        
+                description: 'Blastocystis en montaje fresco con lugol 1000X'
+              },
+
+              
+
+            ]
+          }
+        }
+      
+
+      }
+
+    },
+
     amebas: {
       'entamoeba-histolytica': {
         name: 'Entamoeba histolytica',
@@ -72,8 +131,8 @@ export const parasites: {
               },
 
               {
-                url: '/images/E_histolytica/E. hystolitica fagocitando GR Wright.jpg',
-                description: 'Trofozoíto de Entamoeba histolytica mostrando sus pseudópodos.'
+                url: '/images/E_histolytica/E hystolitica trofozoita vulva.png',
+                description: 'Trofozoíto de Entamoeba histolytica en vulva.'
               },
 
               {
@@ -146,6 +205,16 @@ export const parasites: {
                 description: 'Trofozoito de E. harmanni'
               },
 
+              {
+                url: '/images/E_hartmanni/quiste E hartm.jpg',
+                description: 'Quiste de E. harmanni'
+              },
+
+              {
+                url: '/images/E_hartmanni/quiste E hartm2.jpg',
+                description: 'Quiste de E. harmanni'
+              },
+
              
             ]
           }
@@ -196,8 +265,16 @@ export const parasites: {
             images: [
               {
                 url: '/images/I_butschlii/Iodamoeba butschlii.jpg',
+                description: 'Quiste de Iodamoeba butschlii'
+              },
 
-        
+              {
+                url: '/images/I_butschlii/quiste iodamoeba1.jpg',
+                description: 'Quiste de Iodamoeba butschlii'
+              },
+
+              {
+                url: '/images/I_butschlii/quiste iodamoeba2.jpg',
                 description: 'Quiste de Iodamoeba butschlii'
               },
             ]
@@ -205,34 +282,7 @@ export const parasites: {
         }
       },
 
-    'Blastocystis-hominis': {
-        name: 'Blastocystis hominis',
-        type: 'Protozoo',
-        subtype: 'Ameba',
-        categories: {
-          
-          quistes: {
-            title: '',
-            description: `La taxonomia de B. hominis es muy discutida. En el momento es considerado un protozooario pero
-            se esta estimando la posibilidad de clasificarlo en un nuevo orden. Este es ocasionalmente encontrado en el 
-            tracto intestinal humano siendo su patogenicidad tambien controversial. El conocimiento sobre su ciclo de vida 
-            y forma de transmisión esta incompleta, pero se asume que la infección es adquirida vía fecal-oral.
-            Su diagnostico esta basado en encontrar formas quisticas en heces frescas, aunque en ocaciones tambien se 
-            pueden encontrar trofozoitos de diversos tamaños`,
-            images: [
-              {
-                url: '/images/B_hominis/B. hominis grande ZN.jpg',        
-                description: 'B. hominis grande ZN'
-              },
-
-              {
-                url: '/images/B_hominis/B. hominis quiste 02.jpg',        
-                description: 'B. hominis quiste.jpg'
-              },
-            ]
-          }
-        }
-      },
+    
 
 
     },
@@ -278,8 +328,8 @@ export const parasites: {
               },
 
               {
-                url: '/images/giardia/Quiste G. lamblia 03  60 X.jpg',
-                description: 'Quiste de G. lamblia 60X'
+                url: '/images/giardia/giardia.jpg',
+                description: 'Quiste de G. lamblia 40X'
               },
 
               {
@@ -308,7 +358,7 @@ export const parasites: {
                           es un comensal inocuo y no da sintomatología.`,
             images: [
               {
-                url: '/images/C_mesnili/C. mesnili.jpg',        
+                url: '/images/C_mesnili/chilomastix2.png',        
                 description: 'Quiste de C. mesnili'
               },
 
@@ -321,20 +371,18 @@ export const parasites: {
         }
       },
 
-      'Trichomonas-vaginalis': {
-        name: 'Trichomonas vaginalis',
+      'Trichomonas-spp': {
+        name: 'Trichomonas spp',
         type: 'Protozoo',
-        subtype: 'Ameba',
+        subtype: 'Flagelado',
         categories: {
           
           quistes: {
             title: '',
-            description: `Es un parásito frecuente y uno de los más importantes productores de E.T.S. Morfologicamente 
-                          el trofozoito es muy semejante a la Trichomonas hominis, del cual es muy dificil de diferenciar. 
-                          Es la trichomona más grande encontrada en el hombre, su tamaño varia de 10 a 15 micras de largo,
-                           tiene tres flagelos anteriores y una membrana ondulante, que raramente va más allá de la mitad del 
-                           cuerpo. El cistosoma es muy poco notorio. no se le conocen quistes, el hábitat normal  de T. vaginalis 
-                           son la vagina y las glándulas prostáticas. Se ha encontrado también en la uretra tanto del hombre como de la mujer.`,
+            description: `Trichomonas spp es un protozoo flagelado que presenta solo el estadio de trofozoito. Se encuentra parasitando diferentes
+                           hospederos como el ser humano con tres especies: T. hominins (encontrada en intestino), T. tenax ( en cavidad bucal) y
+                            T. vaginalis (ubicada a nivel genitourinario). La especie T. vaginalis es de transmission sexual y ocasiona diferentes
+                             signos y sintomas. T. tenax puede ocasionar periodontitis y gingivitis.`,
             images: [
               {
                 url: '/images/T_vaginalis/Trofozoitos Trichomonas vaginalis.jpg',        
@@ -349,8 +397,8 @@ export const parasites: {
     },
 
     ciliados: {
-      'Balantidium-coli': {
-        name: 'Balantidium coli',
+      'Neobalantidium-coli': {
+        name: 'Neobalantidium coli',
         type: 'Protozoo',
         subtype: 'Ciliados',
         categories: {
@@ -386,18 +434,17 @@ export const parasites: {
 
     coccidios: {
       'Cryptosporidium': {
-        name: 'Cryptosporidium',
+        name: 'Cryptosporidium spp',
         type: 'Protozoo',
         subtype: 'Coccidios',
         categories: {
           adultos: {
             title: '',
-            description: `Es el principal parásito productor de diarrea en los pacientes inmunocomprometidos (SIDA). Es mononexo, es decir
-                          todas las fases de su ciclo vital lo realiza en el hombre, en el borde en cepillo del epitelio intestinal. Su 
-                          tamaño esta comprendido entre 2 a 6 micras dependiendo del estado del ciclo de vida en que se encuentre.
-                           El Cryptosporidium parvum es el responsable de la diarrea en el humano y el ganado vacuno. El ooquiste 
-                           tienen forma esférica. Miden de 4 a 6 micras. Son infecciosos en el momento de la evacuación. En su interior 
-                           se encuentran generalmente cuatro esporozoitos. ` ,
+            description: `La infección causada por especies de Crypstosporidium spp se encuentra asociadas a pacientes inmunosuprimidos. 
+                          Hoy día son 21 especies que parasitan a las personas, siendo C. hominis y C. parvum las más frecuentes, y otras como 
+                          C. andersoni , C. ubiquitum , C. meleagridis , C. muris y C. cuniculus son también patógenas. El ooquiste tiene forma 
+                          esférica y miden de 4 a 6 micras siendo ácido alcohol resistentes y son infectantes una vez eliminado en las heces, 
+                          siendo capaces de producir autoinfección. En su interior se encuentran cuatro esporozoitos.` ,
             images: [
               {
                 url: '/images/Cryptosporidium/Cryptosporidium.jpg',
@@ -422,7 +469,7 @@ export const parasites: {
 
 
     'Isospora-belli': {
-        name: 'Isospora belli',
+        name: 'Cystoisospora belli',
         type: 'Protozoo',
         subtype: 'Coccidios',
         categories: {
@@ -442,12 +489,12 @@ export const parasites: {
             images: [
               {
                 url: '/images/I_belli/Isospora esporoquiste sin teñir.jpg',
-                description: 'Isospora esporoquiste sin teñir'
+                description: 'Cystoisospora esporoquiste sin teñir'
               },
 
               {
                 url: '/images/I_belli/Isospora esporoquistes teñido.jpg',
-                description: 'Isospora esporoquistes teñido'
+                description: 'Cystoisospora esporoquistes teñido'
               },
               
              
@@ -460,7 +507,7 @@ export const parasites: {
 
 
       'Sarcocystis': {
-        name: 'Sarcocystis',
+        name: 'Sarcocystis spp',
         type: 'Protozoo',
         subtype: 'Coccidios',
         categories: {
@@ -477,6 +524,28 @@ export const parasites: {
               {
                 url: '/images/Sarcocystis/Sarcocystis (corte de cerdo).jpg',
                 description: 'Sarcocystis (corte de cerdo).jpg'
+              },
+
+              
+            ]
+          },
+          
+        }
+      },
+
+      'Cyclospora': {
+        name: 'Cyclospora cayetanensis',
+        type: 'Protozoo',
+        subtype: 'Coccidios',
+        categories: {
+          adultos: {
+            title: '',
+            description: "Cyclospora cayetanensis es la coccidia cuya especie infecta a las personas tanto inmunocompetentes como inmunosuprimidas, pero hay alrededor de otras 20 especies. Los ooquistes son estructuras ácido alcohol resistentes y miden de 6 a 8 micras  debiendo madurar en el ambiente"                       
+                           ,
+            images: [
+              {
+                url: '/images/Cyclospora/Cyclospora cayetanensis.jpg',
+                description: 'Cyclospora cayetanensis Técnica de Zielh Nielsen modificada'
               },
 
               
@@ -511,12 +580,12 @@ export const parasites: {
               },
 
               {
-                url: '/images/ascarisLumbricoides/Huevo de Ascaris fertil.jpg',
+                url: '/images/ascarisLumbricoides/ascaris1.jpg',
                 description: 'Huevo de A. Lumbriocoides fertil'
               },
 
               {
-                url: '/images/ascarisLumbricoides/Huevo de Ascaris infertil.jpg',
+                url: '/images/ascarisLumbricoides/ascaris2.jpg',
                 description: 'Huevo de A. Lumbriocoides fertil'
               },
             ]
@@ -547,6 +616,8 @@ export const parasites: {
                 url: '/images/ascarisLumbricoides/Ascaris adultas.jpg',
                 description: 'A. Lumbricoides adultas'
               },
+
+              
 
               {
                 url: '/images/ascarisLumbricoides/ascariasis letal.jpg',
@@ -584,33 +655,6 @@ export const parasites: {
               },
               {
                 url: '/images/T_trichiura/Trichuris trichiura 01.jpg',
-                description: ''
-              }
-            ]
-          },
-          
-        }
-      },
-
-
-      'Enterobius-vermicularis': {
-        name: 'Enterobius vermicularis',
-        type: 'Helminto',
-        subtype: 'Nematodo',
-        categories: {
-          adultos: {
-            title: '',
-            description:  `Los huevos de este parasito son blancos, transparentes bastante típicos con un lado plano y el otro curvo, 
-                          por lo cual tienen un aforma similar a la letra "D". Miden de 50 a 60 micras de longitud por 25 de ancho,
-                           tienen una envoltura delicada y traslucida; generalmente están maduros (larvados) en el momento de la 
-                           oviposición por lo que puede presentarse autoinfección. El hombre es su único huesped definitivo.`,
-            images: [
-              {
-                url: '/images/E_vermicularis/huevo de oxiuro.jpg',
-                description: ''
-              },
-              {
-                url: '/images/E_vermicularis/Enterobius huevo.jpg',
                 description: ''
               }
             ]
@@ -681,25 +725,76 @@ export const parasites: {
       },
 
       'Strongyloides_stercoralis': {
-        name: 'Strongyloides stercoralis',
+        name: 'Strongyloides spp',
         type: 'Helminto',
         subtype: 'Nematodo',
         categories: {
           adultos: {
             title: '',
-            description:  `Es un parasito muy pequeño, la hembra parásita es filiforme, transparente, mide aproximadamente 2 mm de largo
-                           por 50 micras de diámetro. El parásito macho no existe y se ha comprobado que la hembra es partenogenética. Las larva 
-                           filariformes, tienen una muesca o bifurcación en el extremo posterior y las rabditiformes tienen la cavida
-                          bucal corta y además el primordio genital bien desarrollado.
-`,
+            description:  `Una de las geohelmintiasis asociada a pacientes inmunosuprimidos es la estrongiloidiasis, es causada por tres especies, 
+                          Strongyloides stercoralis, S. fuelleborni y S. fuelleborni kellyi. En los hospederos vertebrados se comporta como un parásito 
+                          partenogenético pero libre en el ambiente realiza reproducción sexual.En las heces se pueden visibilizar huevos, 
+                          larvas rhabditiformes y filariformes.
+                            `,
             images: [
               {
-                url: '/images/S_stercoralis/Strongyloides stercoralis_01.jpg',
-                description: ''
+                url: '/images/S_stercoralis/Larva rhaditiforme.jpg',
+                description: 'Larva rhaditiforme de strongyloides spp'
+              },
+
+              {
+                url: '/images/S_stercoralis/Larva rhaditiforme2.jpg',
+                description: 'Larva rhabditiforme 300 μm'
+              },
+
+              {
+                url: '/images/S_stercoralis/filariforme.jpg',
+                description: 'Larva filariforme de strongyloides spp'
+              },
+
+              {
+                url: '/images/S_stercoralis/filariforme2.jpg',
+                description: 'Larva filariforme 500 μm '
+              }
+            ]
+          },
+          
+        }
+      },
+
+      'Enterobius-vermicularis': {
+        name: 'Enterobius vermicularis',
+        type: 'Helminto',
+        subtype: 'Nematodo',
+        categories: {
+          adultos: {
+            title: '',
+            description:  `Los huevos de este parasito son blancos, transparentes bastante típicos con un lado plano y el otro curvo, 
+                          por lo cual tienen un aforma similar a la letra "D". Miden de 50 a 60 micras de longitud por 25 de ancho,
+                           tienen una envoltura delicada y traslucida; generalmente están maduros (larvados) en el momento de la 
+                           oviposición por lo que puede presentarse autoinfección. El hombre es su único huesped definitivo.`,
+            images: [
+              {
+                url: '/images/E_vermicularis/huevo de oxiuro.jpg',
+                description: 'Huevo'
               },
               {
-                url: '/images/S_stercoralis/Strongyloides stercoralis.jpg',
-                description: ''
+                url: '/images/E_vermicularis/Enterobius huevo.jpg',
+                description: 'Huevo'
+              },
+
+              {
+                url: '/images/E_vermicularis/huevo.jpg',
+                description: 'Huevos'
+              },
+
+              {
+                url: '/images/E_vermicularis/extremo_cefalico.jpg',
+                description: 'Extremo cefálico'
+              },
+              {
+                url: '/images/E_vermicularis/corteTrans.jpg',
+                description: 'Corte transversal'
               }
             ]
           },
@@ -737,7 +832,7 @@ export const parasites: {
 
     trematodos: {
       'Fasciola-hepatica': {
-        name: 'Fasciola hepática',
+        name: 'Fasciola hepatica',
         type: 'Helminto',
         subtype: 'Trematodo',
         categories: {
@@ -790,7 +885,7 @@ export const parasites: {
 
 
       'Paragonimus-westermani': {
-        name: 'Paragonimus westermani',
+        name: 'Paragonimus spp',
         type: 'Helminto',
         subtype: 'Trematodo',
         categories: {
@@ -836,7 +931,8 @@ export const parasites: {
               ,{
                 url: '/images/taenia/Taenia sp huevo.jpg',
                 description: 'Taenia sp huevo.jpg'
-              }
+              },
+
             ]
           },
 
@@ -845,18 +941,22 @@ export const parasites: {
             title: 'Adulto',
             description: 'Son gusanos planos de forma acintada, cuyo cuerpo está constituído por las siguientes partes: Escólex o cabeza, un cuello y el resto del cuerpo llamado estrobilo, el cual esta constituido por una serio de segmentos que reciben el nombre de proglótides',
             images: [
-              {
-                url: '/images/taenia/Taenia adulta 01.jpg',
-                description: ''
-              },
-              {
-                url: '/images/taenia/Taenia adulta 06.jpg',
-                description: ''
-              },
+
 
               {
                 url: '/images/taenia/Taenia adulta 03.jpg',
-                description: ''
+                description: 'Taenia adulta'
+              },
+
+              {
+                url: '/images/taenia/taenia adulta.jpg',
+                description: 'Taenia adulta'
+              },
+
+              {
+                url: '/images/taenia/neurocistecircosis.jpg',
+                description: 'Neurocisticercosis causada por Taenia solium'
+
               }
             ]
           }

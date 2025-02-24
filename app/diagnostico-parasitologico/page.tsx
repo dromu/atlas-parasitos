@@ -11,19 +11,29 @@ export default function DiagnosticoParasitologicoPage() {
       </Link>
       <h1 className="text-3xl font-bold mb-4">Diagnóstico Parasitológico</h1>
       <p className="text-lg text-justify mb-4">
-      Para el diagnóstico de los parásitos intestinales, se emplean diferentes técnicas  que van desde la biología molecular, citometria de flujo o procedimientos de laboratorio que tienen la finalidad de confirmar el diagnóstico de una enfermedad parasitaria mediante el hallazgo 
-      del agente etiológico denominándose estas como técnicas de diagnostico parasitológico, para diferenciarlos de los procedimientos serológicos como ELISA, IFI, que consisten en la búsqueda de anticuerpos o antígenos presentes por el contacto del parásito con el sistema inmune.
-      
+      Para el diagnóstico de los parásitos intestinales, se emplean diferentes técnicas que van
+      desde la serología, biología molecular, citometría de flujo o procedimientos de
+      laboratorio que tienen la finalidad de confirmar el diagnóstico de una enfermedad
+      parasitaria mediante el hallazgo del agente etiológico denominándose éstas como
+      técnicas de diagnóstico parasitológico, para diferenciarlos de los procedimientos
+      serológicos como ELISA, IFI, que consisten en la búsqueda de anticuerpos o antígenos
+      presentes por el contacto del parásito con el sistema inmune.
       </p>
 
       <p className="text-lg text-justify mb-4">
-      Cuando se emplea materia fecal, esta técnica se denomina examen coproparasitológico, que consiste en la búsqueda de huevos, larvas, trofozoitos o quistes en heces, generalmente esta técnica debe 
-      realizarse en forma seriada, o acompañándola de alguna técnica de concentración como: Fausto flotación con sulfato de zinc, sedimentación de Ritchie-Frick, Flotación de Sheather, Técnica de kato-Katz, que aumentan la probabilidad de encontrar algún estadio del parásito en heces.
+      Cuando se emplea materia fecal, esta técnica se denomina examen coproparasitológico o
+      coproparasitoscópico, que consiste en la búsqueda de huevos, larvas, trofozoitos o
+      quistes en heces, generalmente esta técnica debe realizarse en forma seriada, o
+      acompañándola de métodos de concentración como: Faust o flotación con sulfato de
+      zinc, sedimentación de Ritchie-Frick, Flotación de Sheather, Técnica de Kato-Katz, que
+      aumentan la probabilidad de encontrar algún estadio del parásito en la materia fecal.
         </p>
       
-        <p className="text-lg text-justify mb-4">
-
-      En el análisis bioquímico de la materia fecal se debe determinar el pH, azucares reductores, sangre oculta y cuantificación de leucocitos, para así confirmar el diagnóstico clínico realizado por el médico e indicar el fármaco según la etiología.
+      <p className="text-lg text-justify mb-4">
+      En el análisis bioquímico de la materia fecal se debe determinar el pH, azucares
+      reductores, sangre oculta y cuantificación de leucocitos, para así confirmar el
+      diagnóstico clínico realizado por el médico para así indicar el fármaco según la
+      etiología.
       </p>
 
 

@@ -3,50 +3,61 @@ import Link from 'next/link'
 export default function PrologoPage() {
   return (
     <div className="max-w-4xl mx-auto p-6 space-y-6">
-      <h1 className="text-3xl font-bold mb-4">Prólogo del Atlas de Parasitología</h1>
-      <p className="text-lg text-justify mb-4">
-      En 1969, en Colombia se presentaron los resultados de la Primera Encuesta
-      Nacional sobre Morbilidad del Parasitismo Intestinal, aplicando el diagnóstico
-      parasitológico por medio del coprológico y el método de Graham; los datos mas
-      destacados indicaron que la prevalencia encontrada fue del 88%, donde el 80.4%
-      poseía parásitos patógenos, además las frecuencias de las parasitosis mas
-      relevantes fueron, Ascaris lumbricoides 53.8%, Trichuris trichiura 50.2%
-      Uncinarias 22.7%, Enterobius vermicularis 5.9% Entamoeba histolytica 23.7% y
-      Giardia lamblia 12.2%.
+      <h1 className="text-3xl font-bold mb-8">Introducción</h1>
+      <h2 className="text-2xl font-bold mb-2">Enfermedades tropicales desatendidas</h2>
+      <p className="text-lg text-justify mb-2">
+      Según indica la Organización Mundial de la Salud-OMS, las Enfermedades Tropicales
+      Desatendidas (ETD) son aquellas infecciones causadas por diferentes agentes etiológicos
+      como bacterias, virus, hongos y parásitos, además de los accidentes con animales
+      venenosos y ponzoñosos. Afectan a mil millones de personas y aquellas comunidades que
+      se encuentran en la zona tropical y subtropical causando un deterioro en la calidad de vida,
+      asociadas a comunidades empobrecidas, que presentan deficiencias en el saneamiento
+      básico, también relacionadas con el suministro de agua ya sea por la cantidad o baja
+      calidad, deficiencias en la atención en salud y con un gran impacto económico.
       </p>
       <p className="text-lg text-justify mb-4">
-      Se realizo una Segunda Encuesta entre 1977 a 1980, donde solamente se aplico el
-      coprológico como técnica de diagnóstico, los resultados indicaron que el 81.8%
-      de la población colombiana presentaba parásitos y además que el  63.3% de la
-      población estudiada presentaba agentes patógenos, destacándose Ascaris
-      lumbricoides 33.6%, Trichuris trichiura  37.%, Uncinarias 21.1%, Enterobius
-      vermicularis 0.1%, Entamoeba histolytica 12.1% y  Giardia lamblia 13.7%
-      </p>
-      <p className="text-lg text-justify mb-4">
-      De los diferentes trabajos de campo realizados por los estudiantes de la Facultad
-      Ciencias de la Salud, Universidad del Cauca en colaboración con docentes de la
-      Unidad de Enfermedades Infecciosas se observo por ejemplo en un estudio realizado en 1999
-      con escolares de tres veredas de Piendamo (Cauca), una  frecuencia de parásitos intestinales 
-      del 90%; en otro estudio realizado para la búsqueda de Giardia lamblia en niños adscritos a hogares 
-      comunitarios de la comuna San José (1999) se hallo una frecuencia de 43% para este agente intestinal
-      </p>
-
+      La OMS ha declarado como enfermedades desatendidas a los Micetomas, las cuales pueden
+      ser producidos por bacterias como <em>Nocardia brasiliensis</em> (Actinomicetomas) o por hongos
+      (Eumicetomas), esporotricosis, cromoblastomicosis y otras micosis cutáneas profundas, las
+      cuales se limitan en gran medida a los trópicos y afectan a las comunidades pobres,
+      generalmente en zonas rurales. También hay que tener en cuenta que el aumento del
+      número de pacientes inmunocomprometidos es altamente susceptibles a las infecciones por
+      hongos, con las llamadas micosis sistémicas que impactan profundamente la salud humana,
+      entre estas la criptococosis, histoplasmosis y las micosis emergentes, las cuales no están
+      formalmente reconocidas como ETD, pero son micosis de alta mortalidad que siguen
+      siendo ignoradas por autoridades de salud pública y tomadores de decisiones.
+    </p>
 
       <p className="text-lg text-justify mb-4">
-      Entonces como se puede apreciar la situación no ha cambiado mucho y esto es
-      debido a que todavía existen deficiencias en saneamiento ambiental, medidas
-      sanitarias, falta de programas de promoción y prevención de los parásitos
-      intestinales y en alguna medida las técnicas de laboratorio clínico no son
-      solicitadas con la regularidad necesaria.
+      Las parasitosis humanas tienen un impacto negativo en la salud pública en diferentes partes
+      del mundo durante décadas, lo que ha estimulado el desarrollo continuo de vacunas, nuevos
+      medicamentos y pruebas de diagnóstico para la malaria, enfermedad del sueño,
+      leishmaniasis, filariasis y enfermedad de Chagas.
       </p>
 
 
       <p className="text-lg text-justify mb-4">
-      En este atlas deseamos dar una ayuda dar una ayuda para el diagnóstico de los
-      parásitos intestinales más frecuentes en el departamento del Cauca y en
-      Colombia, y esperando a que este manual pueda ser utilizado como una
-      herramienta de consulta no solo para los estudiantes de la parasitología si no para
-      todo aquel que se desempeñe como trabajador en el área de la salud.
+      Hoy día existen diferentes metodologías para el diagnóstico de las ETD como la utilización
+      de pruebas serológicas, moleculares o metodologías omicas pero en la zona tropical y
+      subtropical por la lejanía de las comunidades no se cuentan con éstas tecnologías por eso
+      hoy día sigue siendo relevante la determinación de los estadios que se pueden observar en
+      el laboratorio clínico donde existan equipos básicos como un microscopio y así iniciar un
+      tratamiento farmacológico que brinde un adecuado manejo.
+      </p>
+
+
+      <p className="text-lg text-justify mb-4">
+      Su control y/o erradicación está relacionado con los Objetivos de Desarrollo Sostenible
+      (ODS) 1, 3 y 6, y es directamente abordado con la meta 3.3, indicando que a 2030 se debe
+      haber puesto “fin a las epidemias del SIDA, la tuberculosis, malaria y enfermedades
+      tropicales desatendidas”.
+      </p>
+
+      <p className="text-lg text-justify mb-4">
+      Con la presentación del atlas en ETD deseamos proporcionar una herramienta para el apoyo
+      diagnóstico de este tipo de micosis y parásitosis intestinales frecuentes a nivel nacional
+      como en el departamento del Cauca. El atlas podrá ser utilizado para consulta y apoyo en el
+      laboratorio clínico, así como en el centro de atención en salud y la comunidad en general.
       </p>
 
       <div className="mt-8">
