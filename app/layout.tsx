@@ -18,6 +18,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="\images\faviconTrichuris.ico" sizes="any" />
+      </head>
+
       <body className={`${inter.className} bg-gray-50`}>
         <header className="bg-gradient-to-r from-purple-600 to-indigo-600 text-white p-4 shadow-md">
           <div className="max-w-7xl mx-auto">
