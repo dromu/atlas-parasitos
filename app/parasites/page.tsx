@@ -34,7 +34,7 @@ export default function ParasitesIndexPage() {
               <ul className="space-y-2 ml-4">
                 {Object.entries(parasiteGroup).map(([id, parasite]) => (
                   <li key={id} className="border-b border-gray-200 last:border-b-0">
-                    <Link href={`/parasite/protozoos/${subtype}/${id}`} className="block py-2 text-blue-600 hover:underline">
+                    <Link href={`/parasite/protozoos/${subtype}/${id}`} className="block py-2 text-blue-600 hover:underline italic">
                       {parasite.name}
                     </Link>
                   </li>
@@ -48,11 +48,11 @@ export default function ParasitesIndexPage() {
           <h3 className="text-xl font-semibold mb-4">Helmintos</h3>
           {Object.entries(parasites.helmintos).map(([subtype, parasiteGroup]) => (
             <div key={subtype} className="ml-4 mb-4">
-              <h4 className="text-lg font-medium mb-2 capitalize">{subtype}</h4>
+              <h4 className="text-lg font-medium mb-2 capitalize ">{subtype}</h4>
               <ul className="space-y-2 ml-4">
                 {Object.entries(parasiteGroup).map(([id, parasite]) => (
                   <li key={id} className="border-b border-gray-200 last:border-b-0">
-                    <Link href={`/parasite/helmintos/${subtype}/${id}`} className="block py-2 text-blue-600 hover:underline">
+                    <Link href={`/parasite/helmintos/${subtype}/${id}`} className="block py-2 text-blue-600 hover:underline italic">
                       {parasite.name}
                     </Link>
                   </li>
@@ -81,9 +81,17 @@ export default function ParasitesIndexPage() {
         </section>
       </div>
 
-      <div className="mt-8 space-x-4">
-        <Link href="/" className="text-blue-600 hover:underline">&larr; Volver a la página de inicio</Link>
+  
+      <div className="mt-8">
+        <Link 
+          href="/" 
+          className="bg-blue-600 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-blue-800 transition-colors duration-300"
+        >
+          Volver a la página principal
+        </Link>
       </div>
+
+
     </div>
   )
 }

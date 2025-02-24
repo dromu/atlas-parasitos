@@ -5,7 +5,8 @@ export default function WelcomePage() {
   return (
     <div className="min-h-screen flex flex-col justify-center items-center bg-gradient-to-b from-blue-100 to-white p-4">
       <main className="text-center max-w-4xl mx-auto">
-        <h1 className="text-4xl font-bold mb-6">Bienvenido al Atlas de Parasitología</h1>
+        <h1 className="text-4xl font-bold mb-2">Atlas de enfermedades tropicales desatendidas</h1>
+        <h2 className="text-3xl font-bold mb-6">Parásitos intestinales y hongos</h2>
         <Image
           src="/images/salud.png?height=200&width=200"
           alt="Icono representativo de parasitología"
@@ -14,13 +15,10 @@ export default function WelcomePage() {
           className="mx-auto mb-6"
         />
         <p className="text-xl mb-8">
-          Explora nuestro compendio interactivo de parásitos intestinales, 
+          Explora nuestro compendio interactivo de parásitos intestinales y hongos, 
           diseñado para estudiantes, profesionales de la salud e investigadores.
         </p>
-        <p className="text-lg mb-8">
-          Descubre información detallada sobre protozoos y helmintos, 
-          incluyendo imágenes de alta calidad y descripciones precisas.
-        </p>
+    
         <div className="flex flex-col items-center gap-4 mb-12">
           <Link 
             href="/parasites" 

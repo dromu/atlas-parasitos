@@ -7,7 +7,7 @@ import Link from 'next/link'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Atlas de Parasitología',
+  title: 'Atlas de enfermedades tropicales desatendidas ',
   description: 'Un atlas interactivo de parásitos intestinales',
 }
 
@@ -26,7 +26,7 @@ export default function RootLayout({
         <header className="bg-gradient-to-r from-purple-600 to-indigo-600 text-white p-4 shadow-md">
           <div className="max-w-7xl mx-auto">
             <Link href="/" className="text-2xl font-bold text-white hover:text-purple-200 transition-colors">
-              Atlas de Parasitología
+              Atlas de parásitos y hongos
             </Link>
           </div>
         </header>

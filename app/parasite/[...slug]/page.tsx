@@ -31,7 +31,7 @@ export default function ParasitePage({ params }: { params: { slug: string[] } })
         </svg>
         <span>Volver al índice</span>
       </Link>
-      <h1 className="text-3xl font-bold">{parasite.name}</h1>
+      <h1 className="text-3xl font-bold italic">{parasite.name}</h1>
       <p className="text-xl text-gray-600">{parasite.type} - {parasite.subtype}</p>
       
       {Object.entries(parasite.categories).map(([categoryKey, category]) => (

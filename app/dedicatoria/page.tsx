@@ -8,9 +8,8 @@ export default function DedicatoriaPage() {
       
       <p className="text-lg">
       <p className="text-gray-600 ml-8"> A mis padres y mi hermana por seguirme apoyando a pesar de todo.</p>
-      <p className=" text-2xl  text-right">Juan Gabriel.</p>
+      <p className="text-xl text-right"><strong>Juan Gabriel</strong></p>
       </p>
-
       <p className="text-lg">
 
       <p className="text-gray-600 ml-8">A mis padres: Reinaldo y Margarita</p>
@@ -19,13 +18,22 @@ export default function DedicatoriaPage() {
       <p className="text-gray-600 ml-8">Por su incondicional apoyo</p>
       <p className="text-gray-600 ml-8">A mi profesor de Parasitología: C J Marinkelle, Ph D, por su gran enseñanza y guía</p>
       </p>
-
-      <p className=" text-2xl  text-right">Luis Reinel.</p>
-
+      <p className="text-xl text-right"><strong>Luis Reinel</strong></p>
+     
 
       <p className="text-lg">
       <p className="text-gray-600 ml-8"> A mi familia y amigos verdaderos, por estar junto a mí en todo momento</p>
-      <p className=" text-2xl  text-right">Fabiola Eugenia</p>
+      <p className="text-xl text-right"><strong>Fabiola Eugenia</strong></p>
+      </p>
+
+      <p className="text-lg">
+      <p className="text-gray-600 ml-8"> A mi familia y amigos, por su apoyo constante y por creer en mí en todo momento</p>
+      <p className="text-xl text-right"><strong>Jader Alejandro</strong></p>
+      </p>
+
+      <p className="text-lg">
+      <p className="text-gray-600 ml-8"> A quienes siempre han estado a mi lado, familia y amigos, gracias por su apoyo inquebrantable.</p>
+      <p className="text-xl text-right"><strong>Rubiel</strong></p>
       </p>
 
 
