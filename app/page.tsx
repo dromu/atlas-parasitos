@@ -21,7 +21,7 @@ export default function WelcomePage() {
     
         <div className="flex flex-col items-center gap-4 mb-12">
           <Link 
-            href="/parasites" 
+            href="/explorer" 
             className="bg-green-600 text-white px-8 py-3 rounded-lg text-xl font-semibold hover:bg-green-700 transition-colors duration-300 w-64"
           >
             Explorar el Atlas

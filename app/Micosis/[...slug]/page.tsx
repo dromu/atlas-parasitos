@@ -1,25 +1,25 @@
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
-import { parasites, ParasiteType, Parasite } from '../../data/parasites'
+import { Micosis, MicosisType, MicosisGen } from '../../dataMicosis/micosis'
 import { ImageModal } from '../../../components/ImageModal'
 
-export default function ParasitePage({ params }: { params: { slug: string[] } }) {
-  const [category, subcategory, parasiteId] = params.slug
+export default function MicosisPage({ params }: { params: { slug: string[] } }) {
+  const [category, subcategory, micosisId] = params.slug
   
-  const getParasite = (category: string, subcategory: string, parasiteId: string): Parasite | undefined => {
-    const categoryData = parasites[category as keyof typeof parasites]
+  const getMicosis = (category: string, subcategory: string, micosisId: string): MicosisGen | undefined => {
+    const categoryData = Micosis[category as keyof typeof Micosis]
     if (categoryData) {
-      const subcategoryData = categoryData[subcategory as keyof ParasiteType]
+      const subcategoryData = categoryData[subcategory as keyof MicosisType]
       if (subcategoryData) {
-        return subcategoryData[parasiteId]
+        return subcategoryData[micosisId]
       }
     }
     return undefined
   }
 
-  const parasite = getParasite(category, subcategory, parasiteId)
+  const micosis= getMicosis(category, subcategory, micosisId)
 
-  if (!parasite) {
+  if (!micosis) {
     notFound()
   }
 
@@ -31,10 +31,10 @@ export default function ParasitePage({ params }: { params: { slug: string[] } })
         </svg>
         <span>Volver al índice</span>
       </Link>
-      <h1 className="text-3xl font-bold italic">{parasite.name}</h1>
-      <p className="text-xl text-gray-600">{parasite.type} - {parasite.subtype}</p>
+      <h1 className="text-3xl font-bold italic">{micosis.nameMic}</h1>
+      <p className="text-xl text-gray-600">{micosis.type} - {micosis.subtype}</p>
       
-      {Object.entries(parasite.categories).map(([categoryKey, category]) => (
+      {Object.entries(micosis.categories).map(([categoryKey, category]) => (
         <section key={categoryKey} className="space-y-4">
           <h2 className="text-2xl font-semibold">{category.title}</h2>
           <p className="text-lg text-gray-700 text-justify">{category.description}</p>
@@ -44,7 +44,7 @@ export default function ParasitePage({ params }: { params: { slug: string[] } })
                 <div className="border rounded-lg overflow-hidden shadow-lg">
                   <ImageModal 
                     imageUrl={image.url} 
-                    alt={`${parasite.name} - ${category.title} - Imagen ${index + 1}`}
+                    alt={`${micosis.nameMic} - ${category.title} - Imagen ${index + 1}`}
                     description={image.description}
                   />
                 </div>
