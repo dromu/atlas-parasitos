@@ -5,7 +5,7 @@ import { ImageModal } from '../../../components/ImageModal'
 
 export default function MicosisPage({ params }: { params: { slug: string[] } }) {
   const [category, subcategory, micosisId] = params.slug
-  
+
   const getMicosis = (category: string, subcategory: string, micosisId: string): MicosisGen | undefined => {
     const categoryData = Micosis[category as keyof typeof Micosis]
     if (categoryData) {
@@ -17,11 +17,29 @@ export default function MicosisPage({ params }: { params: { slug: string[] } }) 
     return undefined
   }
 
-  const micosis= getMicosis(category, subcategory, micosisId)
+  const micosis = getMicosis(category, subcategory, micosisId)
 
   if (!micosis) {
     notFound()
   }
+
+  // Función para formatear texto: maneja cursivas y saltos de línea
+  const formatText = (text: string, changeSize: boolean = false) => {
+    return text.split("\\n").map((line, index) => (
+      <p key={index} className={`text-gray-700 text-justify ${changeSize ? "text-lg" : ""}`}>
+        {line.split(/(\*[^*]+\*)/g).map((segment, i) =>
+          segment.startsWith("*") && segment.endsWith("*") ? (
+            <em key={i}>{segment.slice(1, -1)}</em>
+          ) : (
+            segment
+          )
+        )}
+      </p>
+    ));
+  };
+
+
+
 
   return (
     <div className="space-y-8 max-w-4xl mx-auto p-4">
@@ -31,13 +49,14 @@ export default function MicosisPage({ params }: { params: { slug: string[] } }) 
         </svg>
         <span>Volver al índice</span>
       </Link>
+
       <h1 className="text-3xl font-bold italic">{micosis.nameMic}</h1>
       <p className="text-xl text-gray-600">{micosis.type} - {micosis.subtype}</p>
-      
+
       {Object.entries(micosis.categories).map(([categoryKey, category]) => (
         <section key={categoryKey} className="space-y-4">
           <h2 className="text-2xl font-semibold">{category.title}</h2>
-          <p className="text-lg text-gray-700 text-justify">{category.description}</p>
+          {formatText(category.description, true)}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {category.images.map((image, index) => (
               <div key={index} className="space-y-4">
@@ -48,7 +67,7 @@ export default function MicosisPage({ params }: { params: { slug: string[] } }) 
                     description={image.description}
                   />
                 </div>
-                <p className="text-sm text-gray-600">{image.description}</p>
+                <p className="text text-gray-600">{formatText(image.description)}</p>
               </div>
             ))}
           </div>
@@ -57,4 +76,3 @@ export default function MicosisPage({ params }: { params: { slug: string[] } }) 
     </div>
   )
 }
-

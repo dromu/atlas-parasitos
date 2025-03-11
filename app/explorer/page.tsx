@@ -102,7 +102,7 @@ export default function ParasitesIndexPage() {
               <ul className="space-y-2 ml-4">
                 {Object.entries(MicosisGroup).map(([id, Micosis]) => (
                   <li key={id} className="border-b border-gray-200 last:border-b-0">
-                    <Link href={`/Micosis/Superficiales/${subtype}/${id}`} className="block py-2 text-blue-600 hover:underline italic">
+                    <Link href={`/Micosis/Superficiales/${subtype}/${id}`} className="block py-2 text-blue-600 hover:underline ">
                       {Micosis.nameMic}
                     </Link>
                   </li>
@@ -111,6 +111,45 @@ export default function ParasitesIndexPage() {
             </div>
           ))}
         </section>
+
+
+        <section>
+          <h3 className="text-xl font-semibold mb-4">Micosis profundas</h3>
+          {Object.entries(Micosis.Profundas).map(([subtype, MicosisGroup]) => (
+            <div key={subtype} className="ml-4 mb-1">
+              <h4 className="text-lg font-medium mb-1 capitalize ">{subtype}</h4>
+              <ul className="space-y-2 ml-4">
+                {Object.entries(MicosisGroup).map(([id, Micosis]) => (
+                  <li key={id} className="border-b border-gray-200 last:border-b-0">
+                    <Link href={`/Micosis/Profundas/${subtype}/${id}`} className="block py-2 text-blue-600 hover:underline ">
+                      {Micosis.nameMic}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </section>
+
+
+        <section>
+          <h3 className="text-xl font-semibold mb-4">Micosis del tracto respiratorio y enfermedades fúngicas invasoras</h3>
+          {Object.entries(Micosis.RespiratorioInvasoras).map(([subtype, MicosisGroup]) => (
+            <div key={subtype} className="ml-4 mb-1">
+              <h4 className="text-lg font-medium mb-1 capitalize ">{subtype}</h4>
+              <ul className="space-y-2 ml-4">
+                {Object.entries(MicosisGroup).map(([id, Micosis]) => (
+                  <li key={id} className="border-b border-gray-200 last:border-b-0">
+                    <Link href={`/Micosis/RespiratorioInvasoras/${subtype}/${id}`} className="block py-2 text-blue-600 hover:underline ">
+                      {Micosis.nameMic}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </section>
+
 
 
 
