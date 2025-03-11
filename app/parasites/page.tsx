@@ -8,30 +8,36 @@ export default function ParasitesIndexPage() {
       <h2 className="text-3xl font-semibold">Contenido </h2>
     
       <div className="space-y-3">
-        <section>
-          <h3 className="text-xl font-semibold mb-4">Diagnóstico Parasitológico</h3>
-          <p className="text-lg mb-4 ml-4">
+
+
+      <section>
+          <h3 className="text-xl font-semibold mb-4">Introducción al parasitismo intestinal</h3>
+          <p className="text-lg mb-2 ml-4">
+            <Link href="/parasitismo-intestinal" className="text-blue-600 hover:underline">
+              Parasitismo intestinal
+            </Link>
+          </p>
+
+          <p className="text-lg medium mb-2 ml-4">
             <Link href="/diagnostico-parasitologico" className="text-blue-600 hover:underline">
               Información sobre técnicas y métodos de diagnóstico parasitológico.
             </Link>
           </p>
-        </section>
 
-        <section>
-          <h3 className="text-xl font-semibold mb-4">Micrómetro de Ocular</h3>
-          <p className="text-lg mb-4 ml-4">
+          <p className="text-lg medium mb-2 ml-4">
             <Link href="/micrometro-ocular" className="text-blue-600 hover:underline">
               Detalles sobre el uso del micrómetro de ocular en parasitología.
             </Link>
           </p>
+
         </section>
 
         <section>
           <h3 className="text-xl font-semibold mb-4">Protozoos</h3>
           {Object.entries(parasites.protozoos).map(([subtype, parasiteGroup]) => (
-            <div key={subtype} className="ml-4 mb-4">
-              <h4 className="text-lg font-medium mb-2 capitalize">{subtype}</h4>
-              <ul className="space-y-2 ml-4">
+            <div key={subtype} className="ml-4 mb-1">
+              <h4 className="text-lg font-medium mb-1 capitalize">{subtype}</h4>
+              <ul className="space-y ml-4">
                 {Object.entries(parasiteGroup).map(([id, parasite]) => (
                   <li key={id} className="border-b border-gray-200 last:border-b-0">
                     <Link href={`/parasite/protozoos/${subtype}/${id}`} className="block py-2 text-blue-600 hover:underline italic">
@@ -47,8 +53,8 @@ export default function ParasitesIndexPage() {
         <section>
           <h3 className="text-xl font-semibold mb-4">Helmintos</h3>
           {Object.entries(parasites.helmintos).map(([subtype, parasiteGroup]) => (
-            <div key={subtype} className="ml-4 mb-4">
-              <h4 className="text-lg font-medium mb-2 capitalize ">{subtype}</h4>
+            <div key={subtype} className="ml-4 mb-1">
+              <h4 className="text-lg font-medium mb-1 capitalize ">{subtype}</h4>
               <ul className="space-y-2 ml-4">
                 {Object.entries(parasiteGroup).map(([id, parasite]) => (
                   <li key={id} className="border-b border-gray-200 last:border-b-0">
@@ -63,22 +69,31 @@ export default function ParasitesIndexPage() {
         </section>
 
         <section>
-          <h3 className="text-xl font-semibold mb-4">Leucocitos en Materia Fecal</h3>
+          <h3 className="text-xl font-semibold mb-4">Otros elementos</h3>
           <p className="text-lg mb-4 ml-4">
             <Link href="/leucocitos-materia-fecal" className="text-blue-600 hover:underline">
-              Información sobre la presencia y significado de leucocitos en muestras fecales.
+            Leucocitos en Materia Fecal
             </Link>
           </p>
+
+          <p className="text-lg mb-4 ml-4">
+            <Link href="/artefactos" className="text-blue-600 hover:underline">
+            Artefactos en Muestras Parasitológicas
+            </Link>
+          </p>
+
         </section>
 
         <section>
-          <h3 className="text-xl font-semibold mb-4">Artefactos</h3>
-          <p className="text-lg mb-4 ml-4">
-            <Link href="/artefactos" className="text-blue-600 hover:underline">
-              Descripción de artefactos comunes en muestras parasitológicas y cómo identificarlos.
+          <h3 className="text-xl font-semibold mb-4">Micologia clínica humana</h3>
+          <p className="text-lg mb-2 ml-4">
+            <Link href="/micosis" className="text-blue-600 hover:underline">
+              Micosis desatendidas
             </Link>
           </p>
-        </section>
+
+          </section>
+
       </div>
 
   
