@@ -44,7 +44,7 @@ export const parasites: {
           
           quistes: {
             title: '',
-            description: `La taxonomia de B. hominis es muy discutida. En el momento es considerado un protozooario pero
+            description: `La Blastocystis sp es muy discutida. En el momento es considerado un protozooario pero
             se esta estimando la posibilidad de clasificarlo en un nuevo orden. Este es ocasionalmente encontrado en el 
             tracto intestinal humano siendo su patogenicidad tambien controversial. El conocimiento sobre su ciclo de vida 
             y forma de transmisión esta incompleta, pero se asume que la infección es adquirida vía fecal-oral.
@@ -53,32 +53,32 @@ export const parasites: {
             images: [
               {
                 url: '/images/B_hominis/B. hominis grande ZN.jpg',        
-                description: 'B. hominis grande ZN'
+                description: 'Blastocystis sp grande ZN'
               },
 
               {
                 url: '/images/B_hominis/B. hominis quiste 02.jpg',        
-                description: 'B. hominis quiste'
+                description: 'Blastocystis sp quiste'
               },
 
               {
                 url: '/images/B_hominis/blastocystisGranular.png',        
-                description: 'Quiste de blastocystis granular'
+                description: 'Quiste de blastocystis sp granular'
               },
 
               {
                 url: '/images/B_hominis/blastocystisVacuolar.png',        
-                description: 'Quiste de blastocystis vacuolar'
+                description: 'Quiste de blastocystis sp vacuolar'
               },
 
               {
                 url: '/images/B_hominis/blastocystisLugol1000X.jpg',        
-                description: 'Blastocystis en montaje fresco con lugol 1000X'
+                description: 'Blastocystis sp en montaje fresco con lugol 1000X'
               },
 
               {
                 url: '/images/B_hominis/blastocystisLugol1000X2.jpg',        
-                description: 'Blastocystis en montaje fresco con lugol 1000X'
+                description: 'Blastocystis  en montaje fresco con lugol 1000X'
               },
 
               
@@ -417,11 +417,11 @@ export const parasites: {
             images: [
               {
                 url: '/images/B_coli/Balantidium coli en tejido.jpg',
-                description: 'Balantidium coli en tejido'
+                description: 'N. coli en tejido'
               },
               {
                 url: '/images/B_coli/Balantidium coli en tejido 02.jpg',
-                description: 'Balantidium coli en tejido'
+                description: 'N. coli en tejido'
               }
               
             ]
@@ -448,16 +448,16 @@ export const parasites: {
             images: [
               {
                 url: '/images/Cryptosporidium/Cryptosporidium.jpg',
-                description: 'Oquiste de Cryptosporidium'
+                description: 'Oquiste de Cryptosporidiu spp'
               },
 
               {
                 url: '/images/Cryptosporidium/Cryptosporidium01.jpg',
-                description: 'Oquiste de Cryptosporidium'
+                description: 'Oquiste de Cryptosporidiu spp'
               },
               {
                 url: '/images/Cryptosporidium/Cryptosporidium 02.jpg',
-                description: 'Oquiste de Cryptosporidium'
+                description: 'Oquiste de Cryptosporidiu spp'
               },
              
               
@@ -614,14 +614,14 @@ export const parasites: {
             images: [
               {
                 url: '/images/ascarisLumbricoides/Ascaris adultas.jpg',
-                description: 'A. Lumbricoides adultas'
+                description: 'A. Lumbricoides formas adultas'
               },
 
               
 
               {
                 url: '/images/ascarisLumbricoides/ascariasis letal.jpg',
-                description: 'A. Lumbriocoides letal'
+                description: 'A. Lumbriocoides postmorten'
               },
 
               {
@@ -802,29 +802,7 @@ export const parasites: {
         }
       },
 
-      'Trichinella-spiralis': {
-        name: 'Trichinella spiralis',
-        type: 'Helminto',
-        subtype: 'Nematodo',
-        categories: {
-          adultos: {
-            title: '',
-            description:  `Los gusanos adultos habitan en su corto período de vida en el intestino delgado (duodeno - yeyuno). 
-                          Los machos miden 1.5 mm y las hembras unos 3 - 4 mm. Las larvas que viven enquistadas en los músculos estriados,
-                          particularmente en su parte tendinosa, miden aproximadamente 1 mm de longitud y los quistes que pueden estar
-                          calcificados de 0.25 a 0.5 mm..
-`,
-            images: [
-              {
-                url: '/images/Trichinella/Trichinella.jpg',
-                description: ''
-              },
-              
-            ]
-          },
-          
-        }
-      },
+
       
       
     },
@@ -847,10 +825,6 @@ export const parasites: {
               {
                 url: '/images/Fasciola/Fasciola placa.jpg',
                 description: 'Fasciola placa'
-              },
-              {
-                url: '/images/Fasciola/Fasciola fresca.jpg',
-                description: 'Fasciola fresca'
               }
             ]
           },
@@ -922,15 +896,15 @@ export const parasites: {
             images: [
               {
                 url: '/images/taenia/Taenia sp huevo 02.jpg',
-                description: 'Huevo taenia sp'
+                description: 'Huevo de taenia spp'
               },
               {
                 url: '/images/taenia/Taenia sp huevo 03 20 X.jpg',
-                description: 'Taenia sp huevo 03 20 X.jpg'
+                description: 'Taenia spp huevo 20X'
               }
               ,{
                 url: '/images/taenia/Taenia sp huevo.jpg',
-                description: 'Taenia sp huevo.jpg'
+                description: 'Huevo de Taenia spp'
               },
 
             ]
@@ -945,12 +919,12 @@ export const parasites: {
 
               {
                 url: '/images/taenia/Taenia adulta 03.jpg',
-                description: 'Taenia adulta'
+                description: 'Proglotidos de Taenia spp'
               },
 
               {
                 url: '/images/taenia/taenia adulta.jpg',
-                description: 'Taenia adulta'
+                description: 'Estadio adulto de Taenia spp (mide aproximadamente 5m-7m)'
               },
 
               {
@@ -1013,51 +987,29 @@ export const parasites: {
       },
 
 
-      'Echinococcus-granulosus': {
-        name: 'Echinococcus granulosus',
+      
+      'Dypilidium-caninum': {
+        name: 'Dypilidium caninum',
         type: 'Helminto',
         subtype: 'Cestodo',
         categories: {
-          descrip: {
+          adultos: {
             title: '',
-            description: `Es el cestodo más pequeño de interés médico. El gusano adulto mide de 3 a 6 mm de longitud, posee un escólex globular 
-                          con cuatro ventosas y un rostelo armado con dos coronas de ganchos y 3 proglótides: uno inmaduro, otro maduro y uno grávido.
-                          El huevo de 30 a 40 micras semeja los de otras tenias.`,
+            description:  `Los gusanos adultos habitan en su corto período de vida en el intestino delgado (duodeno - yeyuno). 
+                          Los machos miden 1.5 mm y las hembras unos 3 - 4 mm. Las larvas que viven enquistadas en los músculos estriados,
+                          particularmente en su parte tendinosa, miden aproximadamente 1 mm de longitud y los quistes que pueden estar
+                          calcificados de 0.25 a 0.5 mm..`,
             images: [
               {
-                url: '/images/Echinococcus/Echinococcus.jpg',
+                url: '/images/Trichinella/Trichinella.jpg',
                 description: ''
               },
-
-              {
-                url: '/images/Echinococcus/Equinococcus 02.jpg',
-                description: ''
-              },
-        
+              
             ]
           },
-
-
-          descrip1: {
-            title: '',
-            description: `Cuando el huevo es ingerido por el huésped intermediario incluyendo al hombre, el embrión liberado penetra en la pared 
-                          intestinal y pasa a los linfáticos o vénulas mesentéricas y es arrastrado por el torrente circulatorio a diversas partes 
-                          del cuerpo, con más frecuencia se aloja en el hígado, pero también puede llegar a los pulmones, músculo, riñón, huesos, 
-                          bazo, ojo y otros organos formando lo que se conoce como quiste hidatidico, siendo el unilocular el producido por 
-                          el Equinococcus granulosus.`,
-            images: [
-              {
-                url: '/images/Echinococcus/Echinococcus en tejido.jpg',
-                description: 'Echinococcus en tejido'
-              },
-
-        
-            ]
-          },
-
-
+          
         }
-      }
+      },
 
 
 
