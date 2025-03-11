@@ -5,8 +5,8 @@ export default function WelcomePage() {
   return (
     <div className="min-h-screen flex flex-col justify-center items-center bg-gradient-to-b from-blue-100 to-white p-4">
       <main className="text-center max-w-4xl mx-auto">
-        <h1 className="text-4xl font-bold mb-2">Atlas de enfermedades tropicales desatendidas</h1>
-        <h2 className="text-3xl font-bold mb-6">Parásitos intestinales y hongos</h2>
+        <h1 className="text-4xl font-bold mb-2">Atlas de Enfermedades Tropicales Desatendidas</h1>
+        <h2 className="text-3xl font-bold mb-6">Parásitos Intestinales y Hongos</h2>
         <Image
           src="/images/salud.png?height=200&width=200"
           alt="Icono representativo de parasitología"
@@ -34,10 +34,10 @@ export default function WelcomePage() {
               Introducción
             </Link>
             <Link 
-              href="/declaracion" 
+              href="/autores" 
               className="bg-purple-600 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-purple-700 transition-colors duration-300"
             >
-              Declaración y Agradecimientos
+             Autores y Agradecimientos
             </Link>
             <Link 
               href="/dedicatoria" 

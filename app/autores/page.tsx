@@ -3,7 +3,7 @@ import Link from 'next/link';
 export default function DeclaracionPage() {
   return (
     <div className="max-w-4xl mx-auto p-6 space-y-6">
-      <h1 className="text-3xl font-bold mb-4">Declaración de Autores y Agradecimientos</h1>
+      <h1 className="text-3xl font-bold mb-4">Autores y Agradecimientos</h1>
       <section>
         <h2 className="text-2xl font-semibold mb-4">Autores</h2>
         <ul className="space-y-6">

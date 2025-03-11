@@ -50,9 +50,16 @@ export type MicosisCategory = {
                                         confirmar el diagnóstico con una sensibilidad de más del 60%.`,
                           images: [
                               {
-                                  url: '/images/Micosis/Fig1_pitariasisVersicolor.jpg',
+                                  url: '/Micosis/Fig1_pitariasisVersicolor.jpg',
                                   description: 'Paciente con Pitiriasis versicolor'
                               },
+
+                              {
+                                url: '/Micosis/Fig2_KOHpitariasisVersicolor.jpg',
+                                description: 'Paciente con Pitiriasis versicolor'
+                            },
+
+
                           ]
                       }
                   }
