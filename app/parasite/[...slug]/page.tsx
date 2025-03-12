@@ -23,6 +23,22 @@ export default function ParasitePage({ params }: { params: { slug: string[] } })
     notFound()
   }
 
+ // Función para formatear texto: maneja cursivas y saltos de línea
+ const formatText = (text: string, changeSize: boolean = false) => {
+  return text.split("\\n").map((line, index) => (
+    <p key={index} className={`text-gray-700 text-justify ${changeSize ? "text-lg" : ""}`}>
+      {line.split(/(\*[^*]+\*)/g).map((segment, i) =>
+        segment.startsWith("*") && segment.endsWith("*") ? (
+          <em key={i}>{segment.slice(1, -1)}</em>
+        ) : (
+          segment
+        )
+      )}
+    </p>
+  ));
+};
+
+
   return (
     <div className="space-y-8 max-w-4xl mx-auto p-4">
       <Link href="/explorer" className="inline-flex items-center text-blue-600 hover:underline mb-4">
@@ -37,7 +53,7 @@ export default function ParasitePage({ params }: { params: { slug: string[] } })
       {Object.entries(parasite.categories).map(([categoryKey, category]) => (
         <section key={categoryKey} className="space-y-4">
           <h2 className="text-2xl font-semibold">{category.title}</h2>
-          <p className="text-lg text-gray-700 text-justify">{category.description}</p>
+          {formatText(category.description, true)}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {category.images.map((image, index) => (
               <div key={index} className="space-y-4">
@@ -48,7 +64,7 @@ export default function ParasitePage({ params }: { params: { slug: string[] } })
                     description={image.description}
                   />
                 </div>
-                <p className="text-sm text-gray-600">{image.description}</p>
+                <p className="text-sm text-gray-600">{formatText(image.description)}</p>
               </div>
             ))}
           </div>

@@ -25,8 +25,8 @@ export default function MicrometroOcularPage() {
 
       Para realizar el diagnóstico diferencíal con base en el tamaño de las formas del parásito, es fundamental la utilización del micrómetro de ocular, esté instrumento
       se coloca en el ocular del micróscopio y se calibra con el micrómetro de platina, para dar sus medidas en micras que son unidades de medida internacional. Esté metodo 
-      permite diferenciar quistes de <em>Entamoeba histolytica/E.dispar/E.moshkovskii</em> con quistes de <em>Entamoeba hartmanni</em>; ooquistes de <em>Cryptosporidium parvum</em> de 
-      <em>Cyclospora cayetanensis</em> y los huevos de <em>Fasciola sp</em> de <em>Paragonimus sp.</em>
+      permite diferenciar quistes de <em>Entamoeba histolytica/E.dispar/E.moshkovskii</em> con quistes de <em>Entamoeba hartmanni</em>; ooquistes de <em>Cryptosporidium parvum</em> de  
+       <em> Cyclospora cayetanensis</em> y los huevos de <em>Fasciola sp</em> de <em>Paragonimus sp.</em>
         
         
       </p>

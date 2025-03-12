@@ -44,41 +44,41 @@ export const parasites: {
           
           quistes: {
             title: '',
-            description: `La Blastocystis sp es muy discutida. En el momento es considerado un protozooario pero
+            description: `La *Blastocystis* sp es muy discutida. En el momento es considerado un protozooario pero
             se esta estimando la posibilidad de clasificarlo en un nuevo orden. Este es ocasionalmente encontrado en el 
             tracto intestinal humano siendo su patogenicidad tambien controversial. El conocimiento sobre su ciclo de vida 
             y forma de transmisión esta incompleta, pero se asume que la infección es adquirida vía fecal-oral.
             Su diagnostico esta basado en encontrar formas quisticas en heces frescas, aunque en ocaciones tambien se 
-            pueden encontrar trofozoitos de diversos tamaños`,
+            pueden encontrar trofozoitos de diversos tamaños.`,
             images: [
               {
                 url: '/images/B_hominis/B. hominis grande ZN.jpg',        
-                description: 'Blastocystis sp grande ZN'
+                description: '*Blastocystis* sp grande ZN'
               },
 
               {
                 url: '/images/B_hominis/B. hominis quiste 02.jpg',        
-                description: 'Blastocystis sp quiste'
+                description: '*Blastocystis* sp quiste'
               },
 
               {
                 url: '/images/B_hominis/blastocystisGranular.png',        
-                description: 'Quiste de blastocystis sp granular'
+                description: 'Quiste de *Blastocystis* sp granular'
               },
 
               {
                 url: '/images/B_hominis/blastocystisVacuolar.png',        
-                description: 'Quiste de blastocystis sp vacuolar'
+                description: 'Quiste de *Blastocystis* sp vacuolar'
               },
 
               {
                 url: '/images/B_hominis/blastocystisLugol1000X.jpg',        
-                description: 'Blastocystis sp en montaje fresco con lugol 1000X'
+                description: '*Blastocystis* sp en montaje fresco con lugol 1000X'
               },
 
               {
                 url: '/images/B_hominis/blastocystisLugol1000X2.jpg',        
-                description: 'Blastocystis  en montaje fresco con lugol 1000X'
+                description: '*Blastocystis*  en montaje fresco con lugol 1000X'
               },
 
               
@@ -104,51 +104,51 @@ export const parasites: {
                           presenta una gran diferencia entre el endoplasma que es granuloso 
                           y el ectoplasma que es transparente, hialino. La emisión de 
                           pseudópodos en forma de dedos se produce por lo general en una 
-                          sola dirección, y en forma rápida "explosiva".
+                          sola dirección, y en forma rápida "explosiva". \\n
                           
-                          Lo mas importante para el reconocimiento de la Entamoeba histolytica
+                          Lo mas importante para el reconocimiento de la *Entamoeba histolytica*
                           es la visualizaciòn del nucleo, este tiene un cariosoma central, pequeño,
                           y la cromatina perifèrica alrededor de la membrana nuclear uniformemente distribuida. 
                           Los trofozoitos se encuentran en las heces diarreicas, son el ùnico estadio
-                          de la ameba que se encuentra en el interior del absceso hepatico amebiano.
+                          de la ameba que se encuentra en el interior del absceso hepatico amebiano. \\n
                           
                           Los trofozoitos se abren paso entre las cèlulas de la mucosa mediante una colagenasa
                           que destruye los puentes intercelulares. Los colonocitos son inducidos a presentar autolisis,
                           la matriz extracelular se degrada y las amibas pasan de la mucosa a la submucosa, esto induce
                           la liberaciòn de gran cantidad de sustancias deletereas para la submucosa del colon permitiendo
-                          el creciminto lateral de la lesiòn dando origen a las ulceras en "botòn de camisa"
+                          el creciminto lateral de la lesiòn dando origen a las ulceras en "botòn de camisa".
                             `,
             images: [
               {
                 url: '/images/E_histolytica/E. histolytica trofozoito 02.jpg',
 
                 
-                description: 'Trofozoíto de Entamoeba histolytica con un glóbulo rojo fagocitado, característica distintiva de esta especie.'
+                description: 'Trofozoíto de *E. histolytica* con un glóbulo rojo fagocitado, característica distintiva de esta especie.'
               },
               {
                 url: '/images/E_histolytica/E. hystolitica fagocitando GR.jpg',
-                description: 'Trofozoíto de Entamoeba histolytica mostrando sus pseudópodos.'
+                description: 'Trofozoíto de *E. histolytica* mostrando sus pseudópodos.'
               },
 
               {
                 url: '/images/E_histolytica/E hystolitica trofozoita vulva.png',
-                description: 'Trofozoíto de Entamoeba histolytica en vulva.'
+                description: 'Trofozoíto de *E. histolytica* en vulva.'
               },
 
               {
                 url: '/images/E_histolytica/E_ histolytica trofozoito.jpg',
 
                 
-                description: 'Trofozoíto de Entamoeba histolytica con un glóbulo rojo fagocitado, característica distintiva de esta especie.'
+                description: 'Trofozoíto de *E. histolytica* con un glóbulo rojo fagocitado, característica distintiva de esta especie.'
               },
               {
                 url: '/images/E_histolytica/Daño en epitelio intestinal por E_ histolytica.jpg',
-                description: 'Trofozoíto de Entamoeba histolytica mostrando sus pseudópodos.'
+                description: 'Trofozoíto de *E. histolytica* mostrando sus pseudópodos.'
               },
 
               {
                 url: '/images/E_histolytica/Trofozoito E_ histolytica en criptas 40 X.jpg',
-                description: 'Trofozoíto de Entamoeba histolytica mostrando sus pseudópodos.'
+                description: 'Trofozoíto de *E. histolytica* mostrando sus pseudópodos.'
               }
 
 
@@ -158,23 +158,23 @@ export const parasites: {
           },
           quistes: {
             title: 'Quistes',
-            description: `Su diametro es de 10 a 18 micras. Es la forma màs frecuente utilizada para hacer el diagnòstico 
-                          de amebiasis. Es importante determinar el nùmero de nùcleos en el quiste y su morfologìa ya que 
-                          estas caracterìsticas se consideran el principal factor diagnòstico. Se encuentran tambièn en los 
+            description: `Su diametro es de 10 a 18 micras. Es la forma más frecuente utilizada para hacer el diagnóstico 
+                          de amebiasis. Es importante determinar el número de núcleos en el quiste y su morfología ya que 
+                          estas caracterìsticas se consideran el principal factor diagnóstico. Se encuentran también en los 
                           quistes los cuerpos cromatoidales los cuales tienen forma de grano de arroz con sus bordes redondeados.`,
             images: [
               {
                 url: '/images/E_histolytica/E.histolytica-E.dispar 02.jpg',
-                description: 'Quiste maduro de Entamoeba histolytica con cuatro núcleos visibles.'
+                description: 'Quiste maduro de *E. histolytica* con cuatro núcleos visibles.'
               },
               {
                 url: '/images/E_histolytica/E.histolytica-E.dispar 03.jpg',
-                description: 'Quiste inmaduro de Entamoeba histolytica con uno o dos núcleos.'
+                description: 'Quiste inmaduro de *E. histolytica* con uno o dos núcleos.'
               },
 
               {
                 url: '/images/E_histolytica/E.histolytica-E.dispar.jpg',
-                description: 'Quiste inmaduro de Entamoeba histolytica con uno o dos núcleos.'
+                description: 'Quiste inmaduro de *E. histolytica* con uno o dos núcleos.'
               },
             ]
           }
@@ -190,29 +190,29 @@ export const parasites: {
           quistes: {
             title: '',
             description: `Esta ameba no patogena muchas veces es confundida por los laboratorios clínicos con la ameba patogena 
-            Entamoeba histolytica ya que su morfologia es muy similar.La manera adecuada de diferenciarlas es mediante el uso del 
-            micrometro de ocular, ya que en su presentación quistica ( Imagen 1) mide menos de 10 micras.Es de importancia tener en 
-            cuenta que la unica ameba que fagocita globulos rojos es Entamoeba histolytica, esta condición ayuda a diferenciarla
-            de E. hartmanni y E. dispar.`,
+            Entamoeba histolytica ya que su morfologia es muy similar. La manera adecuada de diferenciarlas es mediante el uso del 
+            micrometro de ocular, ya que en su presentación quistica (Imagen 1) mide menos de 10 micras. Es de importancia tener en 
+            cuenta que la unica ameba que fagocita globulos rojos es *Entamoeba histolytica*, esta condición ayuda a diferenciarla
+            de *E. hartmanni* y *E. dispar*.`,
             images: [
               {
                 url: '/images/E_hartmanni/E. hartmanni 7.5 uM 40 X.jpg',
-                description: 'Quiste de  E. harmanni'
+                description: 'Quiste de  *E. hartmanni*'
               },
 
               {
                 url: '/images/E_hartmanni/Trofozoito E. harmanni.jpg',
-                description: 'Trofozoito de E. harmanni'
+                description: 'Trofozoito de *E. hartmanni*'
               },
 
               {
                 url: '/images/E_hartmanni/quiste E hartm.jpg',
-                description: 'Quiste de E. harmanni'
+                description: 'Quiste de *E. hartmanni*'
               },
 
               {
                 url: '/images/E_hartmanni/quiste E hartm2.jpg',
-                description: 'Quiste de E. harmanni'
+                description: 'Quiste de *E. hartmanni*'
               },
 
              
@@ -235,17 +235,17 @@ export const parasites: {
             images: [
               {
                 url: '/images/E_coli/E. coli quiste.jpg',
-                description: 'Quiste maduro de Entamoeba coli con ocho núcleos visibles.'
+                description: 'Quiste maduro de *E. coli* con ocho núcleos visibles.'
               },
 
               {
                 url: '/images/E_coli/E. coli quiste 02.jpg',
-                description: 'Quiste maduro de Entamoeba coli con ocho núcleos visibles.'
+                description: 'Quiste maduro de *E. coli* con ocho núcleos visibles.'
               },
 
               {
                 url: '/images/E_coli/E. coli quiste 03.jpg',
-                description: 'Quiste maduro de Entamoeba coli con ocho núcleos visibles.'
+                description: 'Quiste maduro de *E. coli* con ocho núcleos visibles.'
               }
             ]
           }
@@ -265,17 +265,17 @@ export const parasites: {
             images: [
               {
                 url: '/images/I_butschlii/Iodamoeba butschlii.jpg',
-                description: 'Quiste de Iodamoeba butschlii'
+                description: 'Quiste de *I. butschlii*'
               },
 
               {
                 url: '/images/I_butschlii/quiste iodamoeba1.jpg',
-                description: 'Quiste de Iodamoeba butschlii'
+                description: 'Quiste de *I. butschlii*'
               },
 
               {
                 url: '/images/I_butschlii/quiste iodamoeba2.jpg',
-                description: 'Quiste de Iodamoeba butschlii'
+                description: 'Quiste de *I. butschlii*'
               },
             ]
           }
@@ -310,7 +310,7 @@ export const parasites: {
             images: [
               {
                 url: '/images/giardia/Trofozoito G. lamblia.jpg',
-                description: 'Trofozoito G. lamblia '
+                description: 'Trofozoito *G. lamblia*'
               },
               
             ]
@@ -320,21 +320,21 @@ export const parasites: {
             description: `Son ovalados miden de 8 a 12 micras de longitud con un polo más redondeado que el otro. Cuando estan inmaduros 
                           tienen dos núcleos y los maduros cuatro. Con frecuencia presentan una gruesa envoltura de doble pared. En el 
                           interior del quiste se observan unas fibrillas curvas en forma de "S" que corresponden a los futuros flagelos 
-                          del trofozoito`,
+                          del trofozoito.`,
             images: [
               {
                 url: '/images/giardia/Quiste G. lamblia 02.jpg',
-                description: 'Trofozoito G. lamblia '
+                description: 'Trofozoito *G. lamblia* '
               },
 
               {
                 url: '/images/giardia/giardia.jpg',
-                description: 'Quiste de G. lamblia 40X'
+                description: 'Quiste de *G. lamblia* 40X'
               },
 
               {
                 url: '/images/giardia/Quiste G. lamblia.jpg',
-                description: 'Quiste de G. lamblia '
+                description: 'Quiste de *G. lamblia* '
               },
             ]
           }
@@ -352,19 +352,17 @@ export const parasites: {
             title: 'Quiste',
             description: `Junto con Giardia lamblia son los más frecuentes flagelados del intestino del hombre. Su hábitat más
                            común es el colon. No es pátogeno. Su presencia en el coprológico es indicativo de contaminación 
-                           oro-fecal.
-                           
-                          Son incoloros característicos en forma de pera o limón. Miden de 7 a 10 micras. Chilomastix mesnili 
+                           oro-fecal. Son incoloros característicos en forma de pera o limón. Miden de 7 a 10 micras. *Chilomastix mesnili* 
                           es un comensal inocuo y no da sintomatología.`,
             images: [
               {
                 url: '/images/C_mesnili/chilomastix2.png',        
-                description: 'Quiste de C. mesnili'
+                description: 'Quiste de *C. mesnili*'
               },
 
               {
                 url: '/images/C_mesnili/C. mesnili 02.jpg',        
-                description: 'Quiste de C. mesnili'
+                description: 'Quiste de *C. mesnili*'
               },
             ]
           }
@@ -379,14 +377,14 @@ export const parasites: {
           
           quistes: {
             title: '',
-            description: `Trichomonas spp es un protozoo flagelado que presenta solo el estadio de trofozoito. Se encuentra parasitando diferentes
-                           hospederos como el ser humano con tres especies: T. hominins (encontrada en intestino), T. tenax ( en cavidad bucal) y
-                            T. vaginalis (ubicada a nivel genitourinario). La especie T. vaginalis es de transmission sexual y ocasiona diferentes
-                             signos y sintomas. T. tenax puede ocasionar periodontitis y gingivitis.`,
+            description: `*Trichomonas* spp es un protozoo flagelado que presenta solo el estadio de trofozoito. Se encuentra parasitando diferentes
+                           hospederos como el ser humano con tres especies: *T. hominins* (encontrada en intestino), *T. tenax* ( en cavidad bucal) y
+                            *T. vaginalis* (ubicada a nivel genitourinario). La especie *T. vaginalis* es de transmission sexual y ocasiona diferentes
+                             signos y sintomas. *T. tenax* puede ocasionar periodontitis y gingivitis.`,
             images: [
               {
                 url: '/images/T_vaginalis/Trofozoitos Trichomonas vaginalis.jpg',        
-                description: 'Trofozoitos Trichomonas vaginalis'
+                description: 'Trofozoitos *T. vaginalis*'
               },
             ]
           }
@@ -412,16 +410,16 @@ export const parasites: {
                           Presenta en su extremo anterior una boca o citostoma y en el extremo posterior un pequeño poro,
                            el citopigio para la expulsión de los alimentos. Mide de 50 a 200 micras.
                           Este parásito vive en el intestino grueso (fotos 1 y 2) donde produce ulceraciones semejantes a 
-                          los de Entamoeba histolytica. Es poco frecuente en el hombre, es más frecuente en el cerdo y los
+                          los de *Entamoeba histolytica*. Es poco frecuente en el hombre, es más frecuente en el cerdo y los
                            individuos que trabajan con estos animales que son los que se infectan con mayor frecuencia. ` ,
             images: [
               {
                 url: '/images/B_coli/Balantidium coli en tejido.jpg',
-                description: 'N. coli en tejido'
+                description: '*N. coli* en tejido'
               },
               {
                 url: '/images/B_coli/Balantidium coli en tejido 02.jpg',
-                description: 'N. coli en tejido'
+                description: '*N. coli* en tejido'
               }
               
             ]
@@ -440,24 +438,24 @@ export const parasites: {
         categories: {
           adultos: {
             title: '',
-            description: `La infección causada por especies de Crypstosporidium spp se encuentra asociadas a pacientes inmunosuprimidos. 
-                          Hoy día son 21 especies que parasitan a las personas, siendo C. hominis y C. parvum las más frecuentes, y otras como 
-                          C. andersoni , C. ubiquitum , C. meleagridis , C. muris y C. cuniculus son también patógenas. El ooquiste tiene forma 
+            description: `La infección causada por especies de *Crypstosporidium* spp se encuentra asociadas a pacientes inmunosuprimidos. 
+                          Hoy día son 21 especies que parasitan a las personas, siendo *C. hominis* y *C. parvum* las más frecuentes, y otras como 
+                          *C. andersoni*, *C. ubiquitum*, *C. meleagridis*, *C. muris* y *C. cuniculus* son también patógenas. El ooquiste tiene forma 
                           esférica y miden de 4 a 6 micras siendo ácido alcohol resistentes y son infectantes una vez eliminado en las heces, 
                           siendo capaces de producir autoinfección. En su interior se encuentran cuatro esporozoitos.` ,
             images: [
               {
                 url: '/images/Cryptosporidium/Cryptosporidium.jpg',
-                description: 'Oquiste de Cryptosporidiu spp'
+                description: 'Oquiste de *Cryptosporidium* spp'
               },
 
               {
                 url: '/images/Cryptosporidium/Cryptosporidium01.jpg',
-                description: 'Oquiste de Cryptosporidiu spp'
+                description: 'Oquiste de *Cryptosporidium* spp'
               },
               {
                 url: '/images/Cryptosporidium/Cryptosporidium 02.jpg',
-                description: 'Oquiste de Cryptosporidiu spp'
+                description: 'Oquiste de *Cryptosporidium* spp'
               },
              
               
@@ -468,7 +466,7 @@ export const parasites: {
       },
 
 
-    'Isospora-belli': {
+    'cystoisospora-belli': {
         name: 'Cystoisospora belli',
         type: 'Protozoo',
         subtype: 'Coccidios',
@@ -477,7 +475,7 @@ export const parasites: {
             title: '',
             description: `La enfermedad causada por este parásito ha tomado importancia en los últimos años, debido al aumento de su frecuencia, 
                           principalmente en los pacientes que presentan inmunodeficiencias. El hombre es sú unico huésped definitivo. Habita
-                          intracelularmente en el epitelio del duodeno distal y del yeyuno proximal, donde tiene lugar su reproducción sexual y asexual.
+                          intracelularmente en el epitelio del duodeno distal y del yeyuno proximal, donde tiene lugar su reproducción sexual y asexual. \\n
                           
                           Los ooquistes son eliminados con las materias fecales. Su tamaño medio es de 30 micras de largo por 12 de ancho. Son de color
                           blanco transparente y ovalados.
@@ -489,12 +487,12 @@ export const parasites: {
             images: [
               {
                 url: '/images/I_belli/Isospora esporoquiste sin teñir.jpg',
-                description: 'Cystoisospora esporoquiste sin teñir'
+                description: '*Cystoisospora* esporoquiste sin teñir'
               },
 
               {
                 url: '/images/I_belli/Isospora esporoquistes teñido.jpg',
-                description: 'Cystoisospora esporoquistes teñido'
+                description: '*Cystoisospora* esporoquistes teñido'
               },
               
              
@@ -513,7 +511,7 @@ export const parasites: {
         categories: {
           adultos: {
             title: '',
-            description: `Son dos las especies más importantes que producen patologia: Sarcocystis bovihominis y Sarcocystis suihominis. 
+            description: `Son dos las especies más importantes que producen patologia: *Sarcocystis bovihominis* y *Sarcocystis suihominis*. 
                           El hombre puede actuar como huésped intermediario o como huésped definitivo en esta parasitosis, cuando actua 
                           como huesped definitivo una invasión intestinal y cuando lo hace como huésped intermediario se produce invasión muscular.
                           El quiste se encuentra en los músculos, como en el corte de cerdo de la foto. Mide aproximadamente 300 micras de ancho, 
@@ -523,7 +521,7 @@ export const parasites: {
             images: [
               {
                 url: '/images/Sarcocystis/Sarcocystis (corte de cerdo).jpg',
-                description: 'Sarcocystis (corte de cerdo).jpg'
+                description: '*Sarcocystis* spp (corte de cerdo).jpg'
               },
 
               
@@ -540,12 +538,13 @@ export const parasites: {
         categories: {
           adultos: {
             title: '',
-            description: "Cyclospora cayetanensis es la coccidia cuya especie infecta a las personas tanto inmunocompetentes como inmunosuprimidas, pero hay alrededor de otras 20 especies. Los ooquistes son estructuras ácido alcohol resistentes y miden de 6 a 8 micras  debiendo madurar en el ambiente"                       
-                           ,
+            description: `*Cyclospora cayetanensis* es la coccidia cuya especie infecta a las personas tanto inmunocompetentes como inmunosuprimidas, pero hay alrededor de otras 20 especies. 
+                          Los ooquistes son estructuras ácido alcohol resistentes y miden de 6 a 8 micras  debiendo madurar en el ambiente`,                  
+                           
             images: [
               {
                 url: '/images/Cyclospora/Cyclospora cayetanensis.jpg',
-                description: 'Cyclospora cayetanensis Técnica de Zielh Nielsen modificada'
+                description: '*Cyclospora cayetanensis* Técnica de Zielh Nielsen modificada'
               },
 
               
@@ -576,17 +575,17 @@ export const parasites: {
             images: [
               {
                 url: '/images/ascarisLumbricoides/Huevo de Ascaris fertil 02.jpg',
-                description: 'Huevo de A. Lumbriocoides fertil'
+                description: 'Huevo de *A. Lumbriocoides* fertil'
               },
 
               {
                 url: '/images/ascarisLumbricoides/ascaris1.jpg',
-                description: 'Huevo de A. Lumbriocoides fertil'
+                description: 'Huevo de *A. Lumbriocoides* fertil'
               },
 
               {
                 url: '/images/ascarisLumbricoides/ascaris2.jpg',
-                description: 'Huevo de A. Lumbriocoides fertil'
+                description: 'Huevo de *A. Lumbriocoides* fertil'
               },
             ]
           },
@@ -614,14 +613,14 @@ export const parasites: {
             images: [
               {
                 url: '/images/ascarisLumbricoides/Ascaris adultas.jpg',
-                description: 'A. Lumbricoides formas adultas'
+                description: '*A. Lumbricoides* formas adultas'
               },
 
               
 
               {
                 url: '/images/ascarisLumbricoides/ascariasis letal.jpg',
-                description: 'A. Lumbriocoides postmorten'
+                description: '*A. Lumbriocoides* postmorten'
               },
 
               {
@@ -651,11 +650,11 @@ export const parasites: {
             images: [
               {
                 url: '/images/T_trichiura/Trichuris trichiura.jpg',
-                description: ''
+                description: 'Huevo de *T. trichiura*'
               },
               {
                 url: '/images/T_trichiura/Trichuris trichiura 01.jpg',
-                description: ''
+                description: 'Huevo de *T. trichiura*'
               }
             ]
           },
@@ -671,29 +670,21 @@ export const parasites: {
           adultos: {
             title: '',
             description:  `Se conocen con este nombre principalmente dos parásitos: Necator americano y Ancylostoma duodenale. Los adultos de estos
-                           parásitos son muy similares, en ete caso se hara una descripción de la especie Ancylostoma duodenale.`,
-            images: [
-
-              
-             
-            ]
-          },
-
-          huevos0: {
-            title: '',
-            description:  ` Los huevos de las uncinarias son indistinguibles entre sí. La forma es oval y miden 60 por 40 micras, son de color blanco
-                            con una membrana muy delgada y única. Entre ella y el interior que puede ser una masa granulosa única o con blastomeros, 
-                            siempre hay un espacio libre.
-                           `,
+                           parásitos son muy similares, en ete caso se hara una descripción de la especie Ancylostoma duodenale. \\n
+                           
+                          Los huevos de las uncinarias son indistinguibles entre sí. La forma es oval y miden 60 por 40 micras, son de color blanco
+                          con una membrana muy delgada y única. Entre ella y el interior que puede ser una masa granulosa única o con blastomeros, 
+                          siempre hay un espacio libre.`,
+            
             images: [
 
               {
                 url: '/images/Uncinarias/Uncinarias.jpg',
-                description: ''
+                description: 'Huevos de *A. duodenale*'
               },
               {
                 url:  '/images/Uncinarias/Uncinarias01.jpg',
-                description: ''
+                description: 'Huevos de *A. duodenale*'
               }
              
             ]
@@ -709,11 +700,11 @@ export const parasites: {
 
               {
                 url: '/images/Uncinarias/A. duodenale porcion cefalica 10 X.jpg',
-                description: 'A. duodenale porción cefalica 10X'
+                description: '*A. duodenale* porción cefalica 10X'
               },
               {
                 url:  '/images/Uncinarias/A. duodenale poecion caudal 4X.jpg',
-                description: 'A. duodenale porción caudal 4X'
+                description: '*A. duodenale* porción caudal 4X'
               }
              
             ]
@@ -724,7 +715,7 @@ export const parasites: {
         }
       },
 
-      'Strongyloides_stercoralis': {
+      'Strongyloides_spp': {
         name: 'Strongyloides spp',
         type: 'Helminto',
         subtype: 'Nematodo',
@@ -732,14 +723,14 @@ export const parasites: {
           adultos: {
             title: '',
             description:  `Una de las geohelmintiasis asociada a pacientes inmunosuprimidos es la estrongiloidiasis, es causada por tres especies, 
-                          Strongyloides stercoralis, S. fuelleborni y S. fuelleborni kellyi. En los hospederos vertebrados se comporta como un parásito 
+                          *S. stercoralis*, *S. fuelleborni* y *S. fuelleborni kellyi*. En los hospederos vertebrados se comporta como un parásito 
                           partenogenético pero libre en el ambiente realiza reproducción sexual.En las heces se pueden visibilizar huevos, 
                           larvas rhabditiformes y filariformes.
                             `,
             images: [
               {
                 url: '/images/S_stercoralis/Larva rhaditiforme.jpg',
-                description: 'Larva rhaditiforme de strongyloides spp'
+                description: 'Larva rhaditiforme de *strongyloides* spp'
               },
 
               {
@@ -749,7 +740,7 @@ export const parasites: {
 
               {
                 url: '/images/S_stercoralis/filariforme.jpg',
-                description: 'Larva filariforme de strongyloides spp'
+                description: 'Larva filariforme de *strongyloides* spp'
               },
 
               {
@@ -824,7 +815,11 @@ export const parasites: {
             images: [
               {
                 url: '/images/Fasciola/Fasciola placa.jpg',
-                description: 'Fasciola placa'
+                description: '*Fasciola hepatica* placa'
+              },
+              {
+                url: '/images/Fasciola/fasciolaAdulto.jpg',
+                description: '*Fasciola hepatica*, adultos'
               }
             ]
           },
@@ -849,9 +844,15 @@ export const parasites: {
                           dos semanas, después atraviesan la cápsula de Glisson, el parénquima hepático y se localizan en los canaliculos biliares.`,
             images: [
               {
-                url: '/images/Fasciola/Fasciola en tejido.jpg',
-                description: 'Fasciola en tejido'
+                url: '/images/Fasciola/caracolFasc.jpg',
+                description: 'Lymnaea spp, caracol hospedero de *Fasciola hepatica*'
               },
+
+              {
+                url: '/images/Fasciola/caracolFasc2.jpg',
+                description: 'Lymnaea spp, caracoles hospederos de *Fasciola hepatica*'
+              },
+
             ]
           }
         }
@@ -871,7 +872,7 @@ export const parasites: {
             images: [
               {
                 url: '/images/Paragonimus/Paragonimus huevo 10 X.jpg',
-                description: 'Paragonimus huevo 10 X.jpg'
+                description: '*Paragonimus* spp huevo 10 X.jpg'
               },
               
             ]
@@ -892,19 +893,19 @@ export const parasites: {
         categories: {
           huevos: {
             title: 'Huevos',
-            description: 'Los huevos de las especies T. solium y T. saginata, no son identificables mediante el examen coprologico normal.',
+            description: 'Los huevos de las especies *T. solium* y *T. saginata*, no son identificables mediante el examen coprologico normal.',
             images: [
               {
                 url: '/images/taenia/Taenia sp huevo 02.jpg',
-                description: 'Huevo de taenia spp'
+                description: 'Huevo de *Taenia* spp'
               },
               {
                 url: '/images/taenia/Taenia sp huevo 03 20 X.jpg',
-                description: 'Taenia spp huevo 20X'
+                description: '*Taenia* spp huevo 20X'
               }
               ,{
                 url: '/images/taenia/Taenia sp huevo.jpg',
-                description: 'Huevo de Taenia spp'
+                description: 'Huevo de *Taenia* spp'
               },
 
             ]
@@ -919,17 +920,17 @@ export const parasites: {
 
               {
                 url: '/images/taenia/Taenia adulta 03.jpg',
-                description: 'Proglotidos de Taenia spp'
+                description: 'Proglotidos de *Taenia* spp'
               },
 
               {
                 url: '/images/taenia/taenia adulta.jpg',
-                description: 'Estadio adulto de Taenia spp (mide aproximadamente 5m-7m)'
+                description: 'Estadio adulto de *Taenia* spp (mide aproximadamente 5m-7m)'
               },
 
               {
                 url: '/images/taenia/neurocistecircosis.jpg',
-                description: 'Neurocisticercosis causada por Taenia solium'
+                description: 'Neurocisticercosis causada por *Taenia* solium'
 
               }
             ]
@@ -951,7 +952,7 @@ export const parasites: {
             images: [
               {
                 url: '/images/H_ nana/H_ nana.jpg',
-                description: ''
+                description: 'Huevo *H. nana*'
               },
         
             ]
@@ -976,7 +977,7 @@ export const parasites: {
             images: [
               {
                 url: '/images/H_diminuta/Hymenolepis diminuta.jpg',
-                description: ''
+                description: 'Huevo de *H. diminuta*'
               },
         
             ]
@@ -995,15 +996,43 @@ export const parasites: {
         categories: {
           adultos: {
             title: '',
-            description:  `Los gusanos adultos habitan en su corto período de vida en el intestino delgado (duodeno - yeyuno). 
-                          Los machos miden 1.5 mm y las hembras unos 3 - 4 mm. Las larvas que viven enquistadas en los músculos estriados,
-                          particularmente en su parte tendinosa, miden aproximadamente 1 mm de longitud y los quistes que pueden estar
-                          calcificados de 0.25 a 0.5 mm..`,
+            description:  `La Dipilidiosis es una parasitosis causada por un cestodo conocida como “solitaria de perros o gatos”, 
+                          el estadio adulto varia en su longitud que puede ser de 10 a 70 cm formado por proglotidos que son similares 
+                          a “granos de arroz” y en su interior presentan cápsulas llenas de cinco a 30 huevos. El hospedero definitivo 
+                          son perros o gatos y de forma accidental los humanos, pero presenta un hospedero intermediario que pueden ser 
+                          pulgas de los anteriores vertebrados.`,
             images: [
               {
-                url: '/images/Trichinella/Trichinella.jpg',
-                description: ''
+                url: '/images/dypilidium/proglotido.jpg',
+                description: 'Proglotidos gravidos (parecido a granos de arroz)'
               },
+
+              {
+                url: '/images/dypilidium/proglotido2.jpg',
+                description: 'Proglotido gravido'
+              },
+
+              {
+                url: '/images/dypilidium/capsula10x.jpg',
+                description: 'Capsula con huevos (aumento 10X)'
+              },
+
+              {
+                url: '/images/dypilidium/capsula40x.jpg',
+                description: 'Capsula con huevos (aumento 40X)'
+              },
+
+              {
+                url: '/images/dypilidium/pulgaperro.jpg',
+                description: 'Pulga del perro *Ctenocephalides canis*'
+              },
+
+              {
+                url: '/images/dypilidium/pulgaperro2.jpg',
+                description: 'Pulga del perro *Ctenocephalides felis*'
+              },
+
+             
               
             ]
           },
