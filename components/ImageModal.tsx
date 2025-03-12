@@ -5,6 +5,23 @@ import Image from 'next/image'
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from "@/components/ui/dialog"
 import { ZoomIn, ZoomOut, Home } from 'lucide-react'
 
+
+ // Función para formatear texto: maneja cursivas y saltos de línea
+ const formatText = (text: string, changeSize: boolean = false) => {
+  return text.split("\\n").map((line, index) => (
+    <p key={index} className={`text-gray-700 text-justify ${changeSize ? "text-lg" : ""}`}>
+      {line.split(/(\*[^*]+\*)/g).map((segment, i) =>
+        segment.startsWith("*") && segment.endsWith("*") ? (
+          <em key={i}>{segment.slice(1, -1)}</em>
+        ) : (
+          segment
+        )
+      )}
+    </p>
+  ));
+};
+
+
 interface ImageModalProps {
   imageUrl: string
   alt: string
@@ -94,7 +111,7 @@ export function ImageModal({ imageUrl, alt, description }: ImageModalProps) {
         <DialogContent className="max-w-2xl">
           <DialogHeader>
             <DialogTitle>{alt}</DialogTitle>
-            <DialogDescription>{description}</DialogDescription>
+            <DialogDescription>{formatText(description)}</DialogDescription>
           </DialogHeader>
           <div className="mt-4 relative">
             {imageError ? (

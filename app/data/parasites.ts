@@ -807,11 +807,9 @@ export const parasites: {
         categories: {
           descrp1: {
             title: '',
-            description: `Es un gusano grande, carnoso, en forma de hoja, mide de 2 a 3 cms de longitud y cerca de 1,5 cms de ancho; en su parte anterior 
-                          tiene una saliente en forma de cono que contiene la ventosa oral y por detrás de ésta, en la cara ventral se encuentra el acetábulo 
-                          que es de mayor tamaño. Entre las dos ventosas se encuentra el poro genital común. El extremo posterior es redondeado. Su aparato
-                          digestivo se caracteriza por presentar ciegos ramificados que se extiende hasta el extremo posterior. Son hermafroditas y los órganos
-                          genitales masculino y femenino se encuentran muy desarrollados.`,
+            description: `La Distomatosis es una zoonosis del grupo de Enfermedades Tropicales Desatendidas causada por *Fasciola hepatica* 
+                          y *F. gigantica*. Parasita al ganado ovino, caprino, equino, vacuno entre otros y de forma accidental al ser humano
+                           siendo reconocida como problema de salud pública. La forma adulta es hermafrodita y denominada popularmente como “mariposa del hígado” produciendo huevos que maduran hacia miracidio que parasitan caracoles Limneidos de agua dulce y en el cual sigue el desarrollo hasta la producción de metacercarias que se encuentran en plantas acuáticas o en el agua y al ser consumidas vuelven a parasitar los hospederos vertebrados.`,
             images: [
               {
                 url: '/images/Fasciola/Fasciola placa.jpg',
@@ -834,15 +832,7 @@ export const parasites: {
                 url: '/images/Fasciola/Huevo de fasciola 10 X.jpg',
                 description: 'Huevo de fasciola 10 X.jpg'
               },
-            ]
-          },
 
-
-          metacercarias : {
-            title: '',
-            description:`Las metacercarias de Fasciola hepática perforan y atraviesan la pared duodenal, pasan a la cavidad peritoneal donde permanecen unas 
-                          dos semanas, después atraviesan la cápsula de Glisson, el parénquima hepático y se localizan en los canaliculos biliares.`,
-            images: [
               {
                 url: '/images/Fasciola/caracolFasc.jpg',
                 description: 'Lymnaea spp, caracol hospedero de *Fasciola hepatica*'
@@ -853,8 +843,10 @@ export const parasites: {
                 description: 'Lymnaea spp, caracoles hospederos de *Fasciola hepatica*'
               },
 
+
             ]
-          }
+          },
+
         }
       },
 

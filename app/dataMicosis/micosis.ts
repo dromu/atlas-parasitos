@@ -140,7 +140,7 @@ export type MicosisCategory = {
         cutaneas:{
 
           superficiescutaneas: {
-                  nameMic: 'Contenido',
+                  nameMic: 'Descripción de micosis',
                   type: 'Superficiales',
                   subtype: 'cutaneas',
                   categories: {
@@ -432,7 +432,28 @@ export type MicosisCategory = {
 
       
       RespiratorioInvasoras: {
+
         RespiratorioInvasoras: {
+            'Generalidades': {
+                nameMic: 'Generalidades',
+                type: 'RespiratorioInvasoras',
+                subtype: '',
+                categories: {
+                    quistes: {
+                        title: '',
+                        description: `El tracto respiratorio, está en contacto permanente con conidios o esporas de hongos ambientales, los cuales son dispersos en partículas del aire; 
+                                    para que se produzca una micosis, se requiere una serie de factores que favorezcan la adherencia, multiplicación y diseminación de las estructuras 
+                                    fúngicas, esto va a depender del sistema inmune del huésped, el número de propágulos infectantes inhalados y su virulencia. Cuadros clínicos que 
+                                    pueden desarrollar un cuadro agudo, subagudo o crónico en el paciente. En los pacientes con alteraciones de las células T, por inmunodeficiencia o 
+                                    inmunosupresión tienen más predisposición a sufrir una infección fúngica grave, con una intensa reacción granulomatosa, cuya respuesta mediada por 
+                                    citoquinas, produce las manifestaciones clínicas de fiebre, astenia, pérdida de peso. La alteración de la inmunidad celular favorece la diseminación 
+                                    al torrente sanguíneo (fungemía), sistema nervioso central(meningitis), sistema retículo endotelial, óseo, y manifestaciones cutáneas, en las 
+                                    llamadas Enfermedades Fúngicas Invasoras de alta mortalidad.`,
+                        images: []
+                    },
+                },
+            },
+
           'Aspergilosis': {
               nameMic: 'Aspergilosis',
               type: 'RespiratorioInvasoras',

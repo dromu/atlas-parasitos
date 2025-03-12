@@ -150,13 +150,14 @@ export default function ParasitesIndexPage() {
             </div>
           ))}
         </section>
+        
 
 
         <section>
           <h3 className="text-xl font-semibold mb-4">Micosis del tracto respiratorio y enfermedades fúngicas invasoras</h3>
           {Object.entries(Micosis.RespiratorioInvasoras).map(([subtype, MicosisGroup]) => (
             <div key={subtype} className="ml-8 mb-1">
-              <h4 className="text-lg font-medium mb-1 capitalize ">{subtype}</h4>
+              {/* <h4 className="text-lg font-medium mb-1 capitalize ">{subtype}</h4> */}
               <ul className="space ml-4">
                 {Object.entries(MicosisGroup).map(([id, Micosis]) => (
                   <li key={id} className="border-b border-gray-200 last:border-b-0">
