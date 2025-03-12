@@ -294,14 +294,44 @@ export type MicosisCategory = {
 
                       images: [
                           {
-                              url: '/Micosis/Fig1_pitariasisVersicolor.jpg',
-                              description: 'Paciente con Pitiriasis versicolor'
+                              url: '/Micosis/fig25_1.jpg',
+                              description: 'Recolección de la muestra clínica a través de aspirado con jeringa 1'
                           },
 
                           {
-                            url: '/Micosis/Fig2_KOHpitariasisVersicolor.jpg',
-                            description: 'Paciente con Pitiriasis versicolor'
+                            url: '/Micosis/fig25_2.jpg',
+                            description: 'Recolección de la muestra clínica a través de aspirado con jeringa 2'
                         },
+
+                        {
+                            url: '/Micosis/fig26_1.jpg',
+                            description: 'Presentación clínica de casos clínicos de esporotricosis linfángitica 1'
+                        },
+
+                        {
+                          url: '/Micosis/fig26_2.jpg',
+                          description: 'Presentación clínica de casos clínicos de esporotricosis linfángitica 2'
+                        },
+                        {
+                            url: '/Micosis/fig26_3.jpg',
+                            description: 'Presentación clínica de casos clínicos de esporotricosis linfángitica 3'
+                        },
+
+                        {
+                        url: '/Micosis/fig27.jpg',
+                        description: 'Presentación clínica de esporotricosis fija'
+                        },
+
+                        {
+                            url: '/Micosis/fig28.jpg',
+                            description: 'Tinción de Giemsa: se observan levaduras en cigarro compatibles con el complejo *Sporothrix* spp.'
+                        },
+
+                         
+
+
+
+                        
 
 
                       ]
@@ -324,15 +354,26 @@ export type MicosisCategory = {
                                     que el agente más frecuente es *Fonsecae pedrosoi*.`,
 
                       images: [
-                          {
-                              url: '/Micosis/Fig1_pitariasisVersicolor.jpg',
-                              description: 'Paciente con Pitiriasis versicolor'
-                          },
+                            {
+                            url: '/Micosis/fig29_1.jpg',
+                            description: 'Presentación clínica de cromoblastomicosis 1'
+                            },
 
-                          {
-                            url: '/Micosis/Fig2_KOHpitariasisVersicolor.jpg',
-                            description: 'Paciente con Pitiriasis versicolor'
-                        },
+                            {
+                            url: '/Micosis/fig29_2.jpg',
+                            description: 'Presentación clínica de cromoblastomicosis 2'
+                            },
+
+                            {
+                                url: '/Micosis/fig30.jpg',
+                                description: 'KOH: se observan células fumagoides'
+                            },
+    
+                            {
+                                url: '/Micosis/fig31.jpg',
+                                description: 'Tinción HP: se observan células fumagoides'
+                                                                                                  
+                            },
 
 
                       ]
@@ -364,15 +405,15 @@ export type MicosisCategory = {
                                     azufre que se recolectan por aspirado o tejido afectado recolectado por biopsia`,
 
                       images: [
-                          {
-                              url: '/Micosis/.jpg',
-                              description: 'Paciente con Pitiriasis versicolor'
-                          },
+                        {
+                            url: '/Micosis/fig32.jpg',
+                            description: 'Caso Micetoma. Copyright Bioq. Julian Serrano'
+                            },
 
-                          {
-                            url: '/Micosis/.jpg',
-                            description: 'Paciente con Pitiriasis versicolor'
-                        },
+                            {
+                            url: '/Micosis/fig33.jpg',
+                            description: 'HP: Granulo de azufre'
+                            },
 
 
                       ]
@@ -412,10 +453,10 @@ export type MicosisCategory = {
                                     una probable infección.`,
 
                       images: [
-                          {
-                              url: '/Micosis/Fig1_pitariasisVersicolor.jpg',
-                              description: 'Paciente con Pitiriasis versicolor'
-                          },
+                            {       
+                            url: '/Micosis/fig34.jpg',
+                            description: 'KOH: en muestra de esputo se observan hifas hialinas septadas dicotómicas sugestivas de Aspergillus sp. En paciente con factor de riesgo como la neutropenia apoya el diagnóstico de aspergilosis pulmonar probable (criterios EORTC/MSGERC)'
+                            },
 
                       ]
                   }
@@ -444,8 +485,8 @@ export type MicosisCategory = {
 
                       images: [
                           {
-                              url: '/Micosis/Fig1_pitariasisVersicolor.jpg',
-                              description: 'Paciente con Pitiriasis versicolor'
+                              url: '/Micosis/fig35.jpg',
+                              description: 'Copywrigt: Tinción de Giemsa en muestra de esputo: se observan hifas anchas aseptadas. En paciente con factor de riesgo como la diabetes y cetoacidosis apoya el diagnóstico de mucormicosis pulmonar probable (criterios EORTC/MSGERC)'
                           },
 
                       ]
@@ -472,8 +513,8 @@ export type MicosisCategory = {
 
                       images: [
                           {
-                              url: '/Micosis/Fig1_pitariasisVersicolor.jpg',
-                              description: 'Paciente con Pitiriasis versicolor'
+                              url: '/Micosis/fig36.jpg',
+                              description: 'Tinción de Giemsa en muestra de LBA: se observan ascos con ascosporas de *Pneumocystis jirovecci*'
                           },
 
                       ]
@@ -483,7 +524,7 @@ export type MicosisCategory = {
 
 
           'Infeccion_Candida': {
-              nameMic: 'Infección Invasiva por Candida spp',
+              nameMic: 'Infección Invasiva por *Candida* spp',
               type: 'RespiratorioInvasoras',
               subtype: '',
               categories: {
@@ -505,10 +546,11 @@ export type MicosisCategory = {
                       de suturas, fracaso renal agudo.`,
 
                       images: [
-                          {
-                              url: '/Micosis/Fig1_pitariasisVersicolor.jpg',
-                              description: 'Paciente con Pitiriasis versicolor'
-                          },
+                        {
+                            url: '/Micosis/fig37.jpg',
+                            description: 'KOH de LBA: se observan pseudohifas y blastoconidios de *Candida* spp. La presencia de estructuras fúngicas compatibles con *Candida* spp en muestra de LBA o esputo-se interpreta como colonización por *Candida* spp.'
+                        },
+
 
                       ]
                   }
@@ -517,7 +559,7 @@ export type MicosisCategory = {
 
 
           'Infeccion_Cryptococcus': {
-              nameMic: 'Infección diseminada por Cryptococcus spp',
+              nameMic: 'Infección diseminada por *Cryptococcus* spp',
               type: 'RespiratorioInvasoras',
               subtype: '',
               categories: {
@@ -530,14 +572,14 @@ export type MicosisCategory = {
                       y suprarrenales, otras localizaciones menos frecuentes son la miocárdica, gastrointestinal, prostática, cutánea, ósea y articular. También se pueden 
                       afectar pacientes inmunocompetentes por la especie C. gattii, algunos de los cuales puede desarrollar una afección pulmonar leve, aunque un 20 a 40% 
                       puede presentar tos, dolor torácico y a veces derrame pleural, si se propaga al SNC, presenta un cuadro de meningitis subaguda o crónica o lesión extensiva 
-                      intracraneal granulomatosa llamado criptococoma.  \n
+                      intracraneal granulomatosa llamado criptococoma.  \\n
                       
                       La meningoencefalitis o meningitis subaguda o crónica es la forma más común de presentación clínica de esta micosis; cerca del 70% a 90% de los pacientes 
                       con SIDA y criptococosis del SNC presentan cefalea, fiebre, trastornos visuales, alteración del estado de conciencia y en algunos casos perdida de la memoria. 
                       La localización de la infección, el curso clínico de la enfermedad, su evolución final, así como el estado inmunitario del paciente, están muy relacionado con 
                       la especie y variedad del Cryptococcus infectante. Para el diagnóstico de meningitis por Cryptococcus, la recolección de Líquido Cefalorraquídeo-LCR por punción 
                       lumbar debe enviarse rápidamente al laboratorio, dentro de los estudios micológicos se debe solicitar son: tinta china, cultivo para hongos y detección de 
-                      antígeno de Cryptococcus. \n
+                      antígeno de Cryptococcus. \\n
 
                       Según la OMS los pacientes VIH sin manifestaciones clínicas meníngeas, con un recuento de CD4 menor a 100 células/µl, debe darse fluconazol de 
                       200 mg/día como una profilaxis primaria. Si está disponible la prueba de antígeno de Cryptococcus (preferiblemente mediante ensayo de flujo 
@@ -550,10 +592,15 @@ export type MicosisCategory = {
                       `,
 
                       images: [
-                          {
-                              url: '/Micosis/Fig1_pitariasisVersicolor.jpg',
-                              description: 'Paciente con Pitiriasis versicolor'
-                          },
+                        {
+                            url: '/Micosis/fig38.jpg',
+                            description: 'Tinción de Giemsa en muestra de esputo: se observan levaduras encapsuladas compatibles con *Cryptococcus* spp'
+                        },
+
+                        {
+                            url: '/Micosis/fig39.jpg',
+                            description: 'Tinta china de muestra de LCR se observan levaduras encapsuladas compatibles con *Cryptococcus* spp'
+                        },
 
                       ]
                   }
@@ -574,7 +621,7 @@ export type MicosisCategory = {
                       puede haber fiebre, infiltrados pulmonares, adenopatías torácicas y fenómenos de hipersensibilidad cutáneos, articulares y pericárdicos, un 5% de los 
                       pacientes pueden presentar artritis, artralgias, pericarditis y rinitis. Algunos individuos presentan una respuesta inflamatoria exuberante con 
                       crecimiento y fusión de ganglios mediastínicos dando lugar a histoplasmomas o “granuloma mediastínico”. Posteriormente, los mecanismos de reparación 
-                      pueden dar lugar a fibrosis mediastínica, obstrucciones o fístulas traqueóesofágicas o divertículos esofágicos. \n
+                      pueden dar lugar a fibrosis mediastínica, obstrucciones o fístulas traqueóesofágicas o divertículos esofágicos. \\n
                       
                       Cuando la inmunidad celular es inmadura o defectuosa, el hongo se multiplica sin interferencia en cualquier órgano en el interior de los macrófagos. 
                       En neonatos, niños e inmunodeprimidos, VIH con recuento de linfocitos CD4 menor de 150 células por µl, hay invasión masiva del sistema mononuclear 
@@ -584,11 +631,11 @@ export type MicosisCategory = {
                       oral, laringe o labios, tracto gastrointestinal como masas o ulceraciones causando dolor, sangrado, perforaciones o mala-absorción, un 5 a 20% de 
                       pacientes presentan meningitis crónicas o lesiones cerebrales focales, las manifestaciones cutáneas ocurren entre el 10 al 25% de pacientes con SIDA, 
                       también pueden observarse formas diseminadas subagudas o crónicas en sujetos sin defecto inmune aparente. Este hongo puede producir infecciones 
-                      pulmonares crónicas cavitadas que simulan una tuberculosis en pacientes con otras neumopatías como enfisema centrilobulillar o bulloso. \n
+                      pulmonares crónicas cavitadas que simulan una tuberculosis en pacientes con otras neumopatías como enfisema centrilobulillar o bulloso. \\n
 
                       Para su diagnóstico una muestra de esputo con la observación de las estructuras micóticas en tinción de Giemsae hace diagnóstico confirmado de la enfermedad. 
                       Otra gran herramienta principalmente útil en pacientes que sufren una histoplasmosis diseminada progresiva, micosis indicadora de SIDA en pacientes VIH, 
-                      es la detección de antígeno galactomannan de Histoplasma capsulatum, la cual se puede realizar en muestras de orina o LBA.  \n
+                      es la detección de antígeno galactomannan de Histoplasma capsulatum, la cual se puede realizar en muestras de orina o LBA.  \\n
 
                       En pacientes VIH/SIDA sin sintomatología respiratoria, con recuento de menor a 150 células de CD4 por µl y que vivan en zonas endémicas para histoplasmosis 
                       se recomienda dar Itraconazol como una profilaxis primaria. Los criterios de suspensión establecidos por los profesionales clínicos son: recuento de células 
@@ -597,10 +644,15 @@ export type MicosisCategory = {
                       `,
 
                       images: [
-                          {
-                              url: '/Micosis/Fig1_pitariasisVersicolor.jpg',
-                              description: 'Paciente con Pitiriasis versicolor'
-                          },
+                        {
+                            url: '/Micosis/fig40.jpg',
+                            description: 'Tinción de Giemsae en muestra de esputo: se observan levaduras intracelulares compatibles con *Histoplasma capsulatum*'
+                        },
+
+                        {
+                            url: '/Micosis/fig41.jpg',
+                            description: 'Tinción de Giemsae en muestra de sangre periférica: se observan levaduras compatibles con *Histoplasma capsulatum*'
+                        },
 
                       ]
                   }
@@ -629,9 +681,19 @@ export type MicosisCategory = {
 
                       images: [
                           {
-                              url: '/Micosis/Fig1_pitariasisVersicolor.jpg',
-                              description: 'Paciente con Pitiriasis versicolor'
+                                url: '/Micosis/fig42_1.jpg',
+                                description: 'KOH de muestras de esputo: se observan levaduras multigemantes compatibles con *Paracoccidioides* spp 1'
                           },
+
+                          {
+                            url: '/Micosis/fig42_2.jpg',
+                            description: 'KOH de muestras de esputo: se observan levaduras multigemantes compatibles con *Paracoccidioides* spp 2'
+                            },
+
+                            {
+                                url: '/Micosis/fig43.jpg',
+                                description: 'Tinción de Giemsa de muestra de esputo: se observan levadura multigemante compatibles con *Paracoccidioides* spp.'
+                                },
 
                       ]
                   }
@@ -639,10 +701,6 @@ export type MicosisCategory = {
           },
 
         
-
-
-          
-
 
       }
   }

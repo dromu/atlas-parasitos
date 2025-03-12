@@ -40,7 +40,6 @@ export default function MicosisPage({ params }: { params: { slug: string[] } }) 
 
 
 
-
   return (
     <div className="space-y-8 max-w-4xl mx-auto p-4">
       <Link href="/explorer" className="inline-flex items-center text-blue-600 hover:underline mb-4">
@@ -50,7 +49,7 @@ export default function MicosisPage({ params }: { params: { slug: string[] } }) 
         <span>Volver al índice</span>
       </Link>
 
-      <h1 className="text-3xl font-bold italic">{micosis.nameMic}</h1>
+      <h1 className="text-3xl font-bold ">{formatText(micosis.nameMic)}</h1>
       <p className="text-xl text-gray-600">{micosis.type} - {micosis.subtype}</p>
 
       {Object.entries(micosis.categories).map(([categoryKey, category]) => (
@@ -67,7 +66,7 @@ export default function MicosisPage({ params }: { params: { slug: string[] } }) 
                     description={image.description}
                   />
                 </div>
-                <p className="text text-gray-600">{formatText(image.description)}</p>
+                <p className="text-sm text-gray-600">{formatText(image.description,false)}</p>
               </div>
             ))}
           </div>
