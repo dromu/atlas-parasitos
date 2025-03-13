@@ -41,7 +41,7 @@ export type MicosisCategory = {
                   categories: {
                       quistes: {
                           title: '',
-                          description: `Infección crónica producida por la levadura Malassezia spp. la cual 
+                          description: `Infección crónica producida por la levadura *Malassezia* spp. la cual 
                                         puede formar parte de la micobiota de la piel, afecta preferiblemente 
                                         adolescentes, las lesiones se observan como maculas hipopigmentadas o 
                                         hiperpigmentadas en sitios anatómicos con más grasa corporal como 
@@ -67,13 +67,13 @@ export type MicosisCategory = {
 
 
               'tina-negra': {
-                  nameMic: 'Tina negra',
+                  nameMic: 'Tiña negra',
                   type: 'Superficiales',
                   subtype: '',
                   categories: {
                       quistes: {
                           title: '',
-                          description: `Micosis crónica, producida por el hongo levaduriforme dematiaceo exógeno hortae wernekii, 
+                          description: `Micosis crónica, producida por el hongo levaduriforme dematiaceo exógeno *hortae wernekii*, 
                                         la enfermedad consiste en lesiones maculares color oscuro afectando principalmente las palmas 
                                         de las manos y las plantas de los pies, rara vez en la cara.`,
                           images: [
@@ -84,7 +84,7 @@ export type MicosisCategory = {
 
                               {
                                 url: '/Micosis/Fig4_KOHtiña_negra.jpg',
-                                description: 'KOH escamas de piel: se observan levaduras y Filamentos dematiaceos compatibles con Hortae werneckii'
+                                description: 'KOH escamas de piel: se observan levaduras y Filamentos dematiaceos compatibles con *Hortae werneckii*'
                             },
                           ]
                       }
@@ -100,7 +100,7 @@ export type MicosisCategory = {
                           title: '',
                           description: `Se presenta como nódulos blandos de color blanquecino, que se pueden localizar en vellos de cejas, 
                                         bigote o pelo escrotal y vulva, al igual que en cabello, sin producir alopecia. Su agente etiológico
-                                        es un hongo levaduriforme de sobrevivencia endógena o exógena Trichosporon spp.`,
+                                        es un hongo levaduriforme de sobrevivencia endógena o exógena *Trichosporon* spp.`,
                           images: [
                               {
                                   url: '/Micosis/Fig5_piedraBlanca.jpg',
@@ -125,7 +125,7 @@ export type MicosisCategory = {
                       quistes: {
                           title: '',
                           description: `Se presenta como nódulos duros negros adheridos a la porción extrafolicular solo del cabello,
-                                        producido por la forma sexual del hongo que se encuentra en el suelo Piedraia hortae.`,
+                                        producido por la forma sexual del hongo que se encuentra en el suelo *Piedraia hortae*.`,
                           images: [
                               {
                                   url: '/Micosis/Fig7_Nodulo_piedranegra.jpg',
@@ -347,7 +347,7 @@ export type MicosisCategory = {
               categories: {
                   quistes: {
                       title: '',
-                      description: `se presenta lesiones subcutáneas crónicas que evolucionan de meses a años, en forma de dermatitis granulomatosa, 
+                      description: `Se presenta lesiones subcutáneas crónicas que evolucionan de meses a años, en forma de dermatitis granulomatosa, 
                                     verrucosa y rara vez diseminación linfática o hemática, la característica común es la presencia de la misma forma 
                                     parasitaria en las muestras clínicas como son los escamas por raspado de puntos negros y biopsias, de las denominadas 
                                     células escleróticas de medlar o células fumagoides  que son patognomónicas de esta entidad, para Colombia se indica 
@@ -461,22 +461,22 @@ export type MicosisCategory = {
               categories: {
                   quistes: {
                       title: '',
-                      description: `micosis producida principalmente por especies de Aspergillus fumigatus, hongo colonizador transitorio de tracto respiratorio, 
+                      description: `Micosis producida principalmente por especies de *Aspergillus fumigatus*, hongo colonizador transitorio de tracto respiratorio, 
                                     por lo que tiene amplia distribución en la naturaleza. Es el agente causal de más del 90% de los casos de aspergilosis invasora, 
                                     se adquiere por inhalación de conidios, que germinan e invaden los tejidos, los pacientes con neutropenia prolongada son el principal 
                                     grupo de pacientes con riesgo para adquirir esta grave infección, los cuales pueden sufrir aspergilosis pulmonar invasora, o aspergilosis 
                                     sistémica con compromiso del SNC, con infarto cerebral, vasculitis, o abscesos cerebrales, en este tipo de pacientes se puede detectar 
                                     antígeno galactomannan circulante. También son agentes de infecciones a nivel cutáneo, aspergilosis broncopulmonar alérgica, sinusitis 
                                     y queratitis. Según el protocolo de manejo de pacientes con riesgo de sufrir una aspergilosis diseminada, se recomienda realizarles en 
-                                    forma rutinaria la detección de antígeno galactomannan de Aspergillus (antigenemia) y en caso del resultado positivo dar Posaconazol 
+                                    forma rutinaria la detección de antígeno galactomannan de *Aspergillus* (antigenemia) y en caso del resultado positivo dar Posaconazol 
                                     suspensión oral, 200 mg/8 horas. Para el diagnóstico confirmado de una aspergilosis la muestra que se debe estudiar es tejido del sitio 
-                                    afectado, la observación de estructuras fúngicas compatibles con Aspergillus en una muestra no estéril, podría indicar colonización o 
+                                    afectado, la observación de estructuras fúngicas compatibles con *Aspergillus* en una muestra no estéril, podría indicar colonización o 
                                     una probable infección.`,
 
                       images: [
                             {       
                             url: '/Micosis/fig34.jpg',
-                            description: 'KOH: en muestra de esputo se observan hifas hialinas septadas dicotómicas sugestivas de Aspergillus sp. En paciente con factor de riesgo como la neutropenia apoya el diagnóstico de aspergilosis pulmonar probable (criterios EORTC/MSGERC)'
+                            description: 'KOH: en muestra de esputo se observan hifas hialinas septadas dicotómicas sugestivas de *Aspergillus* sp. En paciente con factor de riesgo como la neutropenia apoya el diagnóstico de aspergilosis pulmonar probable (criterios EORTC/MSGERC)'
                             },
 
                       ]
@@ -492,17 +492,17 @@ export type MicosisCategory = {
               categories: {
                   quistes: {
                       title: '',
-                      description: `micosis producida principalmente por especies de Aspergillus fumigatus, hongo colonizador transitorio de tracto respiratorio, 
-                                    por lo que tiene amplia distribución en la naturaleza. Es el agente causal de más del 90% de los casos de aspergilosis invasora, 
-                                    se adquiere por inhalación de conidios, que germinan e invaden los tejidos, los pacientes con neutropenia prolongada son el principal 
-                                    grupo de pacientes con riesgo para adquirir esta grave infección, los cuales pueden sufrir aspergilosis pulmonar invasora, o aspergilosis 
-                                    sistémica con compromiso del SNC, con infarto cerebral, vasculitis, o abscesos cerebrales, en este tipo de pacientes se puede detectar 
-                                    antígeno galactomannan circulante. También son agentes de infecciones a nivel cutáneo, aspergilosis broncopulmonar alérgica, sinusitis 
-                                    y queratitis. Según el protocolo de manejo de pacientes con riesgo de sufrir una aspergilosis diseminada, se recomienda realizarles en 
-                                    forma rutinaria la detección de antígeno galactomannan de Aspergillus (antigenemia) y en caso del resultado positivo dar Posaconazol 
-                                    suspensión oral, 200 mg/8 horas. Para el diagnóstico confirmado de una aspergilosis la muestra que se debe estudiar es tejido del sitio 
-                                    afectado, la observación de estructuras fúngicas compatibles con Aspergillus en una muestra no estéril, podría indicar colonización o 
-                                    una probable infección.`,
+                      description: `los agentes causantes de esta micosis pertenecen un grupo de hongos denominados mucorales, 
+                      *Mucor* spp, *Rhizomucors* spp, *Rhizopus* spp, *Cunninhanella* spp etc. Cuyo habitad es la materia orgánica en 
+                      descomposición, son aerotolerantes, con afinidad por el hierro, con tropismo por los vasos sanguíneos, 
+                      se pueden adquirir a través de trauma, e inhalación, causan cuadros principalmente subcutáneos, a veces 
+                      sistémica, la forma más frecuente es la rinocerebral, pero se puede presentar la pulmonar, cutánea, intestinal, 
+                      del SNC, periorbitaria, y nasal. Afectando principalmente el paciente diabético no controlado o con cetoacidosis. 
+                      Para confirmar su diagnóstico se requiere recolectar tejidos a través de biopsia del sitio afectado. 
+                      Actualmente para Colombia, cuando se presenta la forma rinocerebral asociada a paciente con COVID 19, 
+                      debe ser de notificación obligatoria. Para el diagnóstico confirmado de una mucormicosis la muestra que 
+                      se debe estudiar es tejido del sitio afectado, la observación de estructuras fúngicas compatibles con 
+                      mucorales en una muestra no estéril podría indicar colonización o una probable infección.`,
 
                       images: [
                           {
@@ -522,7 +522,7 @@ export type MicosisCategory = {
               categories: {
                   quistes: {
                       title: '',
-                      description: `Producida por el hongo especie/especifico Pneumocystis jirovecii, la infección pulmonar es la forma más frecuente y 
+                      description: `Producida por el hongo especie/especifico *Pneumocystis jirovecii*, la infección pulmonar es la forma más frecuente y 
                       ocurre aproximadamente en el 11% de los pacientes con SIDA. También es importante en otros individuos como inmunodeficiencias primarias, 
                       malignidades hematológicas y trasplantados de órganos sólidos y medula ósea, así como en pacientes con altas dosis de esteroides, 
                       cerca del 50% de los pacientes presentan fiebre, escalofrío, tos no productiva o con esputo mucoide claro, fino y rara vez hemoptoico, 
@@ -552,9 +552,9 @@ export type MicosisCategory = {
                   quistes: {
                       title: '',
                       description: `Se considera candidosis diseminada profunda o invasiva, a la infección de uno o varios órganos, de líquidos 
-                      orgánicos normalmente estériles y del torrente sanguíneo por Candida spp. Sólo tienen valor diagnóstico si se aísla la misma 
-                      especie en forma repetitiva de Candida en el curso de cuadros clínicos bien definidos, de vísceras cerradas y de líquidos orgánicos 
-                      normalmente estériles. La presentación clínica de las infecciones sistémicas por Candida spp, es inespecífica y va desde la candidemia 
+                      orgánicos normalmente estériles y del torrente sanguíneo por *Candida* spp. Sólo tienen valor diagnóstico si se aísla la misma 
+                      especie en forma repetitiva de *Candida* en el curso de cuadros clínicos bien definidos, de vísceras cerradas y de líquidos orgánicos 
+                      normalmente estériles. La presentación clínica de las infecciones sistémicas por *Candida* spp, es inespecífica y va desde la candidemia 
                       hasta la candidiasis diseminada aguda, difícil distinguir entre cuadros infecciosos locales, como la infección urinaria y la infección 
                       sistémica con afectación renal en un paciente con candidiasis diseminada, los pacientes que sufren candidiasis invasoras pueden presentar 
                       todo un espectro de signos inflamatorios locales y/o sistémicos, inespecíficos como la sepsis, la sepsis grave, el shock séptico y el 
@@ -588,22 +588,22 @@ export type MicosisCategory = {
                       title: '',
                       description: `el ingreso de las levaduras desecadas o basidiosporas por vía inhalatoria hasta pulmón en un paciente inmunodeficiente 
                       (leucemia, linfoma, enfermedad de hodgkin, sarcoidosis, tuberculosis, diabetes mellitus, tratamiento con corticoesteroides) e 
-                      inmunosuprimido VIH/SIDA es más frecuente por C. neoformans variedad grubii, se desarrolla una infección diseminada  a partir del pulmón 
+                      inmunosuprimido VIH/SIDA es más frecuente por *C. neoformans* variedad *grubii*, se desarrolla una infección diseminada  a partir del pulmón 
                       al sistema nervioso central causando meningitis o meningoencefalitis, pero  también puede localizarse en hígado, riñón, bazo, ganglios linfáticos 
                       y suprarrenales, otras localizaciones menos frecuentes son la miocárdica, gastrointestinal, prostática, cutánea, ósea y articular. También se pueden 
-                      afectar pacientes inmunocompetentes por la especie C. gattii, algunos de los cuales puede desarrollar una afección pulmonar leve, aunque un 20 a 40% 
+                      afectar pacientes inmunocompetentes por la especie *C. gattii*, algunos de los cuales puede desarrollar una afección pulmonar leve, aunque un 20 a 40% 
                       puede presentar tos, dolor torácico y a veces derrame pleural, si se propaga al SNC, presenta un cuadro de meningitis subaguda o crónica o lesión extensiva 
                       intracraneal granulomatosa llamado criptococoma.  \\n
                       
                       La meningoencefalitis o meningitis subaguda o crónica es la forma más común de presentación clínica de esta micosis; cerca del 70% a 90% de los pacientes 
                       con SIDA y criptococosis del SNC presentan cefalea, fiebre, trastornos visuales, alteración del estado de conciencia y en algunos casos perdida de la memoria. 
                       La localización de la infección, el curso clínico de la enfermedad, su evolución final, así como el estado inmunitario del paciente, están muy relacionado con 
-                      la especie y variedad del Cryptococcus infectante. Para el diagnóstico de meningitis por Cryptococcus, la recolección de Líquido Cefalorraquídeo-LCR por punción 
+                      la especie y variedad del *Cryptococcus* infectante. Para el diagnóstico de meningitis por *Cryptococcus*, la recolección de Líquido Cefalorraquídeo-LCR por punción 
                       lumbar debe enviarse rápidamente al laboratorio, dentro de los estudios micológicos se debe solicitar son: tinta china, cultivo para hongos y detección de 
-                      antígeno de Cryptococcus. \\n
+                      antígeno de *Cryptococcus*. \\n
 
                       Según la OMS los pacientes VIH sin manifestaciones clínicas meníngeas, con un recuento de CD4 menor a 100 células/µl, debe darse fluconazol de 
-                      200 mg/día como una profilaxis primaria. Si está disponible la prueba de antígeno de Cryptococcus (preferiblemente mediante ensayo de flujo 
+                      200 mg/día como una profilaxis primaria. Si está disponible la prueba de antígeno de *Cryptococcus* (preferiblemente mediante ensayo de flujo 
                       lateral-inmunocromatografia en prueba rápida 10 minutos), en pacientes con un recuento de células CD4 < 200 células/mm3, se debe hacer la antigenemia, 
                       antes de iniciar o reiniciar la terapia antirretroviral en adultos que viven con el VIH para prevenir el desarrollo de la criptococosis, si la prueba 
                       resulta positiva se da tratamiento adelantado con fluconazol 800-1200 mg/día durante dos semanas, seguido de terapia de consolidación y mantenimiento, 
@@ -635,7 +635,7 @@ export type MicosisCategory = {
               categories: {
                   quistes: {
                       title: '',
-                      description: `los propágulos infectantes de Histoplasma capsulatum, se adquieren por inhalación; la histoplasmosis cursa sin síntomas en el 95% 
+                      description: `los propágulos infectantes de *Histoplasma capsulatum*, se adquieren por inhalación; la histoplasmosis cursa sin síntomas en el 95% 
                       de los casos, presentando la prueba de intradermorreacción positiva y calcificaciones pulmonares o esplénicas. Se disemina vía hematógena desde 
                       los pulmones hacia otros tejidos en las primeras dos semanas, antes de que la inmunidad específica se haya desarrollado, posteriormente la inmunidad 
                       celular controla la infección en pacientes inmunocompetentes y explican el curso subclínico y limitado de la enfermedad, cuando el inóculo es grande 
@@ -656,7 +656,7 @@ export type MicosisCategory = {
 
                       Para su diagnóstico una muestra de esputo con la observación de las estructuras micóticas en tinción de Giemsae hace diagnóstico confirmado de la enfermedad. 
                       Otra gran herramienta principalmente útil en pacientes que sufren una histoplasmosis diseminada progresiva, micosis indicadora de SIDA en pacientes VIH, 
-                      es la detección de antígeno galactomannan de Histoplasma capsulatum, la cual se puede realizar en muestras de orina o LBA.  \\n
+                      es la detección de antígeno galactomannan de *Histoplasma capsulatum*, la cual se puede realizar en muestras de orina o LBA.  \\n
 
                       En pacientes VIH/SIDA sin sintomatología respiratoria, con recuento de menor a 150 células de CD4 por µl y que vivan en zonas endémicas para histoplasmosis 
                       se recomienda dar Itraconazol como una profilaxis primaria. Los criterios de suspensión establecidos por los profesionales clínicos son: recuento de células 
@@ -687,7 +687,7 @@ export type MicosisCategory = {
               categories: {
                   quistes: {
                       title: '',
-                      description: `la paracoccidioidomicosis es una micosis endémica de Sur América producida por el complejo Paracoccidioides spp.. 
+                      description: `la paracoccidioidomicosis es una micosis endémica de Sur América producida por el complejo *Paracoccidioides* spp. 
                       La mayoría de las infecciones primarias se adquieren por inhalación y son subclínicas; posteriormente, el hongo puede reactivarse 
                       tras haber permanecido durante años en estado de latencia. Es una enfermedad típica de campesinos adultos y resulta rara en mujeres, 
                       niños y adolescentes. En niños suele producir infección diseminada con fiebre, síndrome constitucional, adenopatías, hepatoesplenomegalia 
