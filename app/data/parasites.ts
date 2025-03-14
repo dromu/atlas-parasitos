@@ -1022,8 +1022,8 @@ export const parasites: {
 
 
       
-      'Dypilidium-caninum': {
-        name: 'Dypilidium caninum',
+      'Dipylidium-caninum': {
+        name: 'Dipylidium caninum',
         type: 'Helminto',
         subtype: 'Cestodo',
         categories: {
