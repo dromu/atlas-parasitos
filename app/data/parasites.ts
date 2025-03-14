@@ -53,22 +53,22 @@ export const parasites: {
             images: [
               {
                 url: '/images/B_hominis/B. hominis grande ZN.jpg',        
-                description: '*Blastocystis* sp grande ZN'
+                description: '*Blastocystis* sp.'
               },
 
               {
                 url: '/images/B_hominis/B. hominis quiste 02.jpg',        
-                description: '*Blastocystis* sp quiste'
+                description: 'Forma vacuolar'
               },
 
               {
                 url: '/images/B_hominis/blastocystisGranular.png',        
-                description: 'Quiste de *Blastocystis* sp granular'
+                description: 'Formas granulares'
               },
 
               {
                 url: '/images/B_hominis/blastocystisVacuolar.png',        
-                description: 'Quiste de *Blastocystis* sp vacuolar'
+                description: 'Forma vacuolar'
               },
 
               {
@@ -277,6 +277,47 @@ export const parasites: {
                 url: '/images/I_butschlii/quiste iodamoeba2.jpg',
                 description: 'Quiste de *I. butschlii*'
               },
+            ]
+          }
+        }
+      },
+
+
+      'endolimax-nana': {
+        name: 'Endolimax Nana',
+        type: 'Protozoo',
+        subtype: 'Ameba',
+        categories: {
+          
+          quistes: {
+            title: '',
+            description: `Ameba no patógena ubicada en el intestino grueso. Los
+                          trofozoítos tienen un tamaño de 8-10 μm y el quiste
+                          presenta una forma ovalada de 6-9 μm x 5-7 μm
+                          presentando cuatro núcleos y cada uno con cariosomas
+                          grandes.`,
+            images: [
+              {
+                url: '/images/E_nana/Endolimax nana quiste.jpg',
+                description: '*E. nana*'
+              },
+
+              {
+                url: '/images/E_nana/endnana1.png',
+                description: '*E. nana*'
+              },
+
+              {
+                url: '/images/E_nana/endnana2.png',
+                description: '*E. nana*'
+              },
+
+              {
+                url: '/images/E_nana/endnana3.png',
+                description: '*E. nana*'
+              },
+
+              
             ]
           }
         }

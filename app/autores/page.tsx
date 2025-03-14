@@ -7,39 +7,30 @@ export default function DeclaracionPage() {
       <section>
         <h2 className="text-2xl font-semibold mb-4">Autores</h2>
         <ul className="space-y-6">
+
+        <li className="space-y-1">
+            <div className="flex items-center">
+              <span className="text-2xl font-bold mr-2">•</span>
+              <span className="text-xl font-semibold">FABIOLA EUGENIA GONZALEZ CUELLAR</span>
+            </div>
+    
+            <p className="text-gray-600 ml-8 text-justify">Bacterióloga y Laboratorista clínico, Especialización Epidemiologia general, Especialización Salud Familiar, M Sc
+                                                Microbiología Clínica y Sanitaria, M Sc Micología Médica, PhD en Etnobiología y
+                                                Estudios Bioculturales, línea Etnomicología. Grupo de investigaciónCentro de
+                                                Estudios en Microbiología y Parasitología (CEMPA). Profesora Titular,
+                                                Departamento de Medicina Interna, Facultad de Ciencias de la Salud,
+                                                Universidad del Cauca</p>
+
+          </li>
+
+
           <li className="space-y-1">
             <div className="flex items-center">
               <span className="text-2xl font-bold mr-2">•</span>
               <span className="text-xl font-semibold">JUAN GABRIEL HIDALGO ANDELA</span>
             </div>
-            <p className="text-gray-600 ml-8"> Estudiante Programa de Medicina</p>
-            <p className="text-gray-600 ml-8"> Facultad Ciencias de la Salud- Universidad del Cauca</p>
-
-          </li>
-          <li className="space-y-1">
-            <div className="flex items-center">
-              <span className="text-2xl font-bold mr-2">•</span>
-              <span className="text-xl font-semibold">LUIS REINEL VÁSQUEZ ARTEAGA</span>
-            </div>
-            <p className="text-gray-600 ml-8"> Licenciado en Biólogia y Química</p>
-            <p className="text-gray-600 ml-8"> M.Sc. Microbiología - Parasitología</p>
-            <p className="text-gray-600 ml-8"> Especialista Entomología</p>
-            <p className="text-gray-600 ml-8"> Profesor Asistente, Departamento de Medicina Interna</p>
-            <p className="text-gray-600 ml-8"> Facultad Ciencias de la Salud; Universidad del Cauca</p>
-          
-          </li>
-          <li className="space-y-1">
-            <div className="flex items-center">
-              <span className="text-2xl font-bold mr-2">•</span>
-              <span className="text-xl font-semibold">FABIOLA EUGENIA GONZALEZ CUELLAR</span>
-            </div>
-            <p className="text-gray-600 ml-8"> Bacteriologa y Laboratorista Clinico</p>
-            <p className="text-gray-600 ml-8"> Master Microbiologia Sanitaria</p>
-            <p className="text-gray-600 ml-8"> Especialista Salud Familiar</p>
-            <p className="text-gray-600 ml-8"> Profesor Asistente, Departamento de Medicina Interna</p>
-            <p className="text-gray-600 ml-8"> Facultad Ciencias de la Salud; Universidad del Cauca</p>
-
-
+            <p className="text-gray-600 ml-8"> Médico especializado en Auditoría Médica, Seguridad Social y Medicina del
+            Trabajo</p>
           </li>
 
           <li className="space-y-1">
@@ -47,25 +38,43 @@ export default function DeclaracionPage() {
               <span className="text-2xl font-bold mr-2">•</span>
               <span className="text-xl font-semibold">JADER ALEJANDRO MUÑOZ GALINDEZ</span>
             </div>
-            <p className="text-gray-600 ml-8"> Ingeniero Fisico</p>
-            <p className="text-gray-600 ml-8"> Joven investigador</p>
-            <p className="text-gray-600 ml-8"> Universidad del Cauca</p>
+
+            <p className="text-gray-600 ml-8 text-justify"> Ingeniero Fisico, Joven investigador, Sistemas Dinamicos Intrumentacion y Control
+                                               (SIDICO), Universidad del Cauca
+            </p>
+            
+            <p className="text-gray-600 ml-8"> </p>
           </li>
+
 
           <li className="space-y-1">
             <div className="flex items-center">
               <span className="text-2xl font-bold mr-2">•</span>
               <span className="text-xl font-semibold">RUBIEL VARGAS CAÑAS</span>
             </div>
-            <p className="text-gray-600 ml-8"> Ingeniero de Sistemas</p>
-            <p className="text-gray-600 ml-8"> Especialialista En Informatica Industrial</p>
-            <p className="text-gray-600 ml-8"> Magister En Ingenieria Enfasis En Electronica</p>
-            <p className="text-gray-600 ml-8"> PhD in Biomedical Engineering</p>
-            <p className="text-gray-600 ml-8"> Profesor, Departamento de Fisica</p>
-            <p className="text-gray-600 ml-8"> Facultad ciencias naturales,exactas y de la educación; Universidad del Cauca</p>
+            <p className="text-gray-600 ml-8 text-justify"> Ingeniero de Sistemas, Especialialista En Informatica Industrial, Magister En Ingenieria Enfasis En Electronica
+            PhD in Biomedical Engineering, Profesor, Departamento de Fisica, Facultad ciencias naturales,exactas y de la educación,  
+            Universidad del Cauca
+            </p>
+          </li>
 
+          <li className="space-y-1">
+            <div className="flex items-center">
+              <span className="text-2xl font-bold mr-2">•</span>
+              <span className="text-xl font-semibold">LUIS REINEL VÁSQUEZ ARTEAGA</span>
+            </div>
+            <p className="text-gray-600 ml-8 text-justify"> Licenciado en Biología y Química, Especialización Epidemiologia General,
+                                                Especialización Entomología Magister Microbiología énfasis Parasitología. Grupo
+                                                de investigaciónCentro de Estudios en Microbiología y Parasitología (CEMPA).
+                                                Profesora Titular, Departamento de Medicina Interna, Facultad de Ciencias de la
+                                                Salud, Universidad del Cauca</p>
 
           </li>
+         
+
+          
+
+          
 
 
           
