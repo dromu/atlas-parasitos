@@ -15,7 +15,7 @@ export default function DeclaracionPage() {
             </div>
     
             <p className="text-gray-600 ml-8 text-justify">Bacterióloga y Laboratorista clínico, Especialización Epidemiologia general, Especialización Salud Familiar, M Sc
-                                                Microbiología Clínica y Sanitaria, M Sc Micología Médica, PhD en Etnobiología y
+                                                Microbiología Clínica y Sanitaria, MSc Micología Médica, PhD en Etnobiología y
                                                 Estudios Bioculturales, línea Etnomicología. Grupo de investigaciónCentro de
                                                 Estudios en Microbiología y Parasitología (CEMPA). Profesora Titular,
                                                 Departamento de Medicina Interna, Facultad de Ciencias de la Salud,
@@ -39,7 +39,7 @@ export default function DeclaracionPage() {
               <span className="text-xl font-semibold">JADER ALEJANDRO MUÑOZ GALINDEZ</span>
             </div>
 
-            <p className="text-gray-600 ml-8 text-justify"> Ingeniero Fisico, Joven investigador, Sistemas Dinamicos Intrumentacion y Control
+            <p className="text-gray-600 ml-8 text-justify"> Ingeniero Fisico, Joven investigador, Sistemas Dinámicos Intrumentacion y Control
                                                (SIDICO), Universidad del Cauca
             </p>
             
