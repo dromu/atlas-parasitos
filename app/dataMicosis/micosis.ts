@@ -56,7 +56,7 @@ export type MicosisCategory = {
 
                               {
                                 url: '/Micosis/Fig2_KOHpitariasisVersicolor.jpg',
-                                description: 'Paciente con Pitiriasis versicolor'
+                                description: 'Se observan levaduras y restos de micelio compatibles con *Malassezia* spp'
                             },
 
 
