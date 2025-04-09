@@ -6,7 +6,7 @@ export default function WelcomePage() {
     <div className="min-h-screen flex flex-col justify-center items-center bg-gradient-to-b from-blue-100 to-white p-4">
       <main className="text-center max-w-4xl mx-auto">
         <h1 className="text-4xl font-bold mb-2">Atlas de Enfermedades Tropicales Desatendidas</h1>
-        <h2 className="text-3xl font-bold mb-6">Parásitos Intestinales y Hongos</h2>
+        <h2 className="text-3xl font-bold mb-6">Parasitología y micología</h2>
         <Image
           src="/images/salud.png?height=200&width=200"
           alt="Icono representativo de parasitología"

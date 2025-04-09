@@ -492,7 +492,7 @@ export type MicosisCategory = {
               categories: {
                   quistes: {
                       title: '',
-                      description: `los agentes causantes de esta micosis pertenecen un grupo de hongos denominados mucorales, 
+                      description: `Los agentes causantes de esta micosis pertenecen un grupo de hongos denominados mucorales, 
                       *Mucor* spp, *Rhizomucors* spp, *Rhizopus* spp, *Cunninhanella* spp etc. Cuyo habitad es la materia orgánica en 
                       descomposición, son aerotolerantes, con afinidad por el hierro, con tropismo por los vasos sanguíneos, 
                       se pueden adquirir a través de trauma, e inhalación, causan cuadros principalmente subcutáneos, a veces 

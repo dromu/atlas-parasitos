@@ -26,7 +26,7 @@ export default function RootLayout({
         <header className="bg-gradient-to-r from-purple-600 to-indigo-600 text-white p-4 shadow-md">
           <div className="max-w-7xl mx-auto">
             <Link href="/" className="text-2xl font-bold text-white hover:text-purple-200 transition-colors">
-              Atlas de parásitos y hongos
+              Atlas de Parasitología y micología
             </Link>
           </div>
         </header>
